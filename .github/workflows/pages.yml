@@ -1,5 +1,5 @@
 # GitHub Pages への公開
-# main に push すると、テストを実行してからアプリ (index.html / css / js / data) を公開する。
+# main に push すると、テストを実行してからアプリ (index.html / css / js / data / vendor) を公開する。
 name: Deploy to GitHub Pages
 
 on:
@@ -33,10 +33,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # 形態素解析 (kuromoji) の本体と辞書をサイトに同梱する (CDN に頼らず同じサイトから読み込む)
+      - run: npm run vendor
       - name: Collect site files
         run: |
           mkdir -p _site
-          cp -r index.html css js data _site/
+          cp -r index.html css js data vendor _site/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

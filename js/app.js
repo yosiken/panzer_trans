@@ -2,7 +2,10 @@
 (function () {
   'use strict';
 
+  // 形態素解析 (kuromoji.js) の読み込み先。GitHub Pages では同じサイトに置いた辞書 (vendor/) を使い、
+  // ない場合 (ローカルで index.html を開いたときなど) は CDN から読み込む。
   var KUROMOJI_SOURCES = [
+    { script: 'vendor/kuromoji/kuromoji.js', dict: 'vendor/kuromoji/dict/' },
     { script: 'https://cdn.jsdelivr.net/npm/kuromoji@0.1.2/build/kuromoji.js', dict: 'https://cdn.jsdelivr.net/npm/kuromoji@0.1.2/dict/' },
     { script: 'https://unpkg.com/kuromoji@0.1.2/build/kuromoji.js', dict: 'https://unpkg.com/kuromoji@0.1.2/dict/' }
   ];
@@ -102,24 +105,40 @@
 
   var analyzerState = 'loading';
 
+  // 読み込みが止まったまま (辞書の取得やエラーで kuromoji のコールバックが呼ばれない) にならないよう、
+  // 1つの読み込み先につき一定時間で打ち切って次へ進む
+  var ANALYZER_TIMEOUT_MS = 30000;
+
+  function withTimeout(promise, ms) {
+    return new Promise(function (resolve, reject) {
+      var timer = setTimeout(function () { reject(new Error('timeout')); }, ms);
+      promise.then(function (v) { clearTimeout(timer); resolve(v); }, function (e) { clearTimeout(timer); reject(e); });
+    });
+  }
+
   function initAnalyzer() {
     var i = 0;
+    var done = false;
     function attempt() {
+      if (done) return;
       if (i >= KUROMOJI_SOURCES.length) {
+        done = true;
         analyzerState = 'fallback';
         el.status.textContent = t('status.fallback');
         return;
       }
       var src = KUROMOJI_SOURCES[i++];
       var ready = window.kuromoji ? Promise.resolve() : loadScript(src.script);
-      ready.then(function () { return buildTokenizer(src.dict); })
+      withTimeout(ready.then(function () { return buildTokenizer(src.dict); }), ANALYZER_TIMEOUT_MS)
         .then(function (built) {
+          if (done) return;
+          done = true;
           tokenizer = built;
           analyzerState = 'ready';
           el.status.textContent = t('status.ready');
           if (el.source.value.trim()) translate(false);
         })
-        .catch(function (err) { if (window.console) console.warn('kuromoji:', err); attempt(); });
+        .catch(function (err) { if (window.console) console.warn('kuromoji (' + src.dict + '):', err); attempt(); });
     }
     attempt();
   }

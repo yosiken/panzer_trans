@@ -20,7 +20,7 @@
       'input.examples': '例文',
       'input.translate': '翻訳して発声',
       'input.clear': 'クリア',
-      'status.loading': '形態素解析を読み込み中…',
+      'status.loading': '形態素解析を読み込み中…（読み込み中も簡易解析で翻訳できます）',
       'status.ready': '形態素解析: 準備完了',
       'status.fallback': '簡易解析モード（形態素解析を読み込めませんでした。オンラインで開くと精度が上がります）',
 
@@ -107,7 +107,7 @@
       'input.examples': 'Examples',
       'input.translate': 'Translate & speak',
       'input.clear': 'Clear',
-      'status.loading': 'Loading the Japanese analyzer…',
+      'status.loading': 'Loading the Japanese analyzer… (you can already translate in simple mode)',
       'status.ready': 'Japanese analyzer: ready',
       'status.fallback': 'Simple mode (the Japanese analyzer could not be loaded; open the page online for better accuracy)',
 

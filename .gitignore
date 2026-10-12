@@ -3,3 +3,4 @@ tools/.missing_gloss.txt
 __pycache__/
 # 元資料はリポジトリに含めない (辞書は tools/source_dictionary.tsv に取り出し済み)
 パンツァー語翻訳資料/
+vendor/

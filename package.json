@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node --test tests/*.test.js",
     "build:dict": "python3 tools/build_dictionary.py",
-    "start": "npx --yes http-server -c-1 -p 8080 ."
+    "vendor": "node tools/vendor_kuromoji.js",
+    "start": "npm run vendor && npx --yes http-server -c-1 -p 8080 ."
   },
   "devDependencies": {
     "kuromoji": "0.1.2"
