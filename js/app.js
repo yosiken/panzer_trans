@@ -10,31 +10,24 @@
     { script: 'https://unpkg.com/kuromoji@0.1.2/build/kuromoji.js', dict: 'https://unpkg.com/kuromoji@0.1.2/dict/' }
   ];
 
-  var EXAMPLES = {};
-  EXAMPLES.ja = [
-    'こんにちは、私の名前は田中です。',
-    '東京から大阪まで電車で行きます',
-    '私は猫と犬が好きです',
+  // 例文 (表示言語に関係なく同じものを使う)
+  var SAMPLES = [
+    'クーリアの変極が発する不思議な青白い光……',
+    'それは不吉の光だと、誰かが言った……',
+    '“……巨大な、その船とやらを追え”',
+    '少なくともその時はそんな気持ちだったかもしれない。',
+    'おびえた子羊のように森に逃げ込んだ。',
+    '旧世紀の力の前にさらされた僕はその力に恐怖した。',
     '夜が明けたら畑に麦を播こう',
     'なぜ、私を助けた？',
     'まさか、あれは…ドラゴン！？',
     '私は帝国の兵士ではない',
     '黙れ！',
+    '承知しました！',
     '早く逃げろ！',
-    'Thank you, my friend.',
-    "I don't know what you are protecting."
+    'Thank you, my friend'
   ];
-  EXAMPLES.en = [
-    'Hello, how are you?',
-    'I like cats and dogs.',
-    'Good morning! Let\'s eat breakfast together.',
-    'Thank you, my friend.',
-    "I don't know what you are protecting.",
-    'The dragon is flying in the sky!',
-    'I want to go to Tokyo tomorrow.',
-    'こんにちは、私の名前は田中です。',
-    'まさか、あれは…ドラゴン！？'
-  ];
+  var EXAMPLES = { ja: SAMPLES, en: SAMPLES };
 
   var PRESETS = {
     normal: { rate: 1.0, pitch: 1.0 },

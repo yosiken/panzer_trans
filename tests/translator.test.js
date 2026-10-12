@@ -105,3 +105,11 @@ test('利用者が追加した単語を使う', () => {
   assert.strictEqual(t.translate('畑に麦をまく', tokenizer).text, 'セレーレ クリース アルウム');
   assert.strictEqual(t.translate('my farm').text, 'ム アルウム');
 });
+
+test('サンプル文', () => {
+  assert.strictEqual(ja('クーリアの変極が発する不思議な青白い光……'), 'クーリアル ポーロス プロフェーポ メステル フロモース フェゴス……');
+  assert.strictEqual(ja('それは不吉の光だと、誰かが言った……'), 'ダナ イエ ヴァスカーノ フェゴス、ティスタ ナルヴ……');
+  assert.strictEqual(ja('おびえた子羊のように森に逃げ込んだ。'), 'ラテオ リュオ ブロマーグ シーファ ゲノス。');
+  assert.strictEqual(ja('少なくともその時はそんな気持ちだったかもしれない。'), 'トゥム ミトス イエ サルテム イド ニムス。');
+  assert.strictEqual(ja('承知しました！'), 'デナ！');
+});

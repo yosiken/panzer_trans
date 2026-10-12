@@ -95,6 +95,7 @@
     'こごえる': '凍らせる', '凍える': '凍らせる', 'ふむ': 'はい', 'うむ': 'はい', 'それほど': '(強調)',
     '暗い': ['(否定)', '光'], '明るい': '光', '育てる': '生きる', '育つ': '生きる', '満ちる': '完全に',
     '伝える': '連絡', '伝わる': '連絡', '不幸': '不吉な', '怒り': '仇',
+    '逃げ込む': '逃げる', '飛び込む': '入る', '駆け込む': '入る', '逃げ出す': '逃げる',
     'いまわしい': '忌まわしい', '恐ろしい': '恐怖', 'おそろしい': '恐怖', 'こりゃ': 'これ', 'なんて': '=シ',
     '涙': '水', '心配': '悩む', '大丈夫': '安心', '平気': '安心',
     '早く': '急いで', '急ぐ': '急いで', 'いま': '今', 'きょう': '今日', 'あした': '明日', 'あす': '明日',
@@ -339,7 +340,10 @@
           return;
         }
         var prev = cur && (cur.func.length ? cur.func[cur.func.length - 1] : cur.content[cur.content.length - 1]);
-        var content = isContent(t) && !(isFunctionalAdj(t) && cur) &&
+        // 「その時」のように連体詞＋形式名詞で辞書にある語は1語として扱う
+        var joinDet = cur && cur.func.length === 0 && cur.content.length === 1 && cur.content[0].pos === '連体詞' &&
+          t.pos === '名詞' && !!lookupJa(cur.content[0].surface_form + t.surface_form);
+        var content = joinDet || isContent(t) && !(isFunctionalAdj(t) && cur) &&
           // 「かもしれない」の「しれ」は付属語として扱う
           !(prev && prev.surface_form === 'かも' && /^(しれる|知れる)$/.test(t.basic_form));
         var continues = cur && (
@@ -349,7 +353,9 @@
             (t.pos === '名詞' && cur.content[cur.content.length - 1].pos === '名詞') ||
             (t.pos === '動詞' && (t.basic_form === 'する' || t.basic_form === 'できる') &&
               cur.content[cur.content.length - 1].pos === '名詞') ||
-            (cur.content[cur.content.length - 1].pos === '接頭詞')
+            (cur.content[cur.content.length - 1].pos === '接頭詞') ||
+            // 「その時」「この船」のように連体詞と名詞をまとめて辞書を引く
+            (t.pos === '名詞' && cur.content.length === 1 && cur.content[0].pos === '連体詞')
           ))
         );
         if (!continues) {
@@ -394,7 +400,9 @@
           var surf = seg.map(function (t) { return t.surface_form; }).join('');
           var base = seg.slice(0, -1).map(function (t) { return t.surface_form; }).join('') +
             (seg[seg.length - 1].basic_form && seg[seg.length - 1].basic_form !== '*' ? seg[seg.length - 1].basic_form : seg[seg.length - 1].surface_form);
-          found = lookupJa(surf) || lookupJa(base);
+          found = lookupJa(surf) || lookupJa(base) ||
+            // 形容動詞の語幹 (不思議 → 不思議な、巨大 → 巨大な)
+            (seg[seg.length - 1].pos_detail_1 === '形容動詞語幹' && (lookupJa(surf + 'な') || lookupJa(surf + 'の')));
           if (found) { foundEnd = j; break; }
         }
         var src = found ? toks.slice(i, foundEnd).map(function (t) { return t.surface_form; }).join('') : '';
@@ -478,6 +486,9 @@
       if (/なければ|なきゃ|ねば|なくては|なくちゃ/.test(surf)) info.must = true;
       if (/^前に/.test(surf)) info.before = true;
       var copulaNeg = /^(では|じゃ)(ない|なかっ|なく|ありません|ねえ)/.test(surf);
+      // 「Aのように」「Aのような」は前置詞 (～の様に リュオ)
+      var likeAs = /^(の)?よう(に|な|だ)/.test(surf) && !/ようにな[らりるれっ]/.test(surf);
+      if (likeAs) { info.role = 'adjunct'; info.prep = 'リュオ'; return finishFunc(info, surf); }
       if (copulaNeg) { info.copula = true; info.neg = true; }
       func.forEach(function (t, k) {
         var b = t.basic_form !== '*' ? t.basic_form : t.surface_form;
@@ -524,6 +535,10 @@
           else if (b === 'できる' || b === 'える' || b === 'うる') info.can = true;
         }
       });
+      return finishFunc(info, surf);
+    }
+
+    function finishFunc(info, surf) {
       if (/^なら|たら$|ったら$/.test(surf)) info.cond = true;
       if (info.must) info.cond = false; // 「しなければ」の「ば」は条件ではない
       // 「食べませんか」「行かないか」は否定ではなく勧誘

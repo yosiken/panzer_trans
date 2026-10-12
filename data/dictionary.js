@@ -1437,7 +1437,15 @@
 {"ja": "運動", "pz": "エクセルキティウム", "cat": "名詞", "note": "", "kind": "word", "src": "拡張", "roman": "EXERCITIUM", "en": ["exercise"]},
 {"ja": "近く", "pz": "プロペ", "cat": "名詞", "note": "", "kind": "word", "src": "拡張", "roman": "PROPE", "en": ["near", "nearby"]},
 {"ja": "頃", "pz": "テンポレ", "cat": "名詞", "note": "", "kind": "word", "src": "拡張", "roman": "TEMPORE", "en": ["time", "when"]},
-{"ja": "回", "pz": "ウィケス", "cat": "名詞", "note": "", "kind": "word", "src": "拡張", "roman": "VICES", "en": ["times"]}
+{"ja": "回", "pz": "ウィケス", "cat": "名詞", "note": "", "kind": "word", "src": "拡張", "roman": "VICES", "en": ["times"]},
+{"ja": "変極", "pz": "ポーロス", "cat": "名詞", "note": "", "kind": "word", "src": "拡張", "roman": "POLOS", "en": ["pole", "polar shift"]},
+{"ja": "少なくとも", "pz": "サルテム", "cat": "副詞", "note": "", "kind": "word", "src": "拡張", "roman": "SALTEM", "en": ["at least"]},
+{"ja": "さらす", "pz": "エクスポネーレ", "cat": "動詞", "note": "", "kind": "word", "src": "拡張", "roman": "EXPONERE", "en": ["expose"]},
+{"ja": "晒す", "pz": "エクスポネーレ", "cat": "動詞", "note": "", "kind": "word", "src": "拡張", "roman": "EXPONERE", "en": ["expose"]},
+{"ja": "承知", "pz": "デナ", "cat": "応答", "note": "", "kind": "word", "src": "拡張", "roman": "DENA", "en": ["understood", "roger"]},
+{"ja": "承知する", "pz": "デナ", "cat": "応答", "note": "", "kind": "word", "src": "拡張", "roman": "DENA", "en": ["understood", "roger"]},
+{"ja": "かしこまる", "pz": "デナ", "cat": "応答", "note": "", "kind": "word", "src": "拡張", "roman": "DENA", "en": ["understood", "roger"]},
+{"ja": "了解する", "pz": "デナ", "cat": "応答", "note": "", "kind": "word", "src": "拡張", "roman": "DENA", "en": ["understood", "roger"]}
 ];
   if (typeof module === 'object' && module.exports) module.exports = DICT;
   else root.PANZER_DICT = DICT;
