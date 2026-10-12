@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>パンツァー語翻訳機</title>
+  <meta name="description" content="日本語・英語をパンツァー語に翻訳して発声するブラウザアプリ">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <div>
+        <h1><span data-i18n="header.title">パンツァー語</span><span class="sub" data-i18n="header.titleSub">翻訳機</span></h1>
+        <p class="tagline" data-i18n="header.tagline">日本語・英語 → パンツァー語。翻訳して、そのまま声に出します。</p>
+      </div>
+      <button id="ui-lang" type="button" class="lang-switch" data-i18n="header.switch" data-i18n-aria="header.switchLabel">English</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="panel" aria-labelledby="input-title">
+      <div class="panel-head">
+        <h2 id="input-title" data-i18n="input.title">入力</h2>
+        <span id="lang-badge" class="badge">自動判定</span>
+      </div>
+      <textarea id="source" rows="4" data-i18n-placeholder="input.placeholder"></textarea>
+      <div class="examples" id="examples" data-i18n-aria="input.examples"></div>
+      <div class="actions">
+        <button id="btn-translate" class="primary" type="button" data-i18n="input.translate">翻訳して発声</button>
+        <button id="btn-clear" type="button" data-i18n="input.clear">クリア</button>
+        <span id="analyzer-status" class="status" role="status"></span>
+      </div>
+    </section>
+
+    <section class="panel output" aria-labelledby="output-title">
+      <div class="panel-head">
+        <h2 id="output-title" data-i18n="output.title">パンツァー語</h2>
+        <div class="speak-buttons">
+          <button id="btn-speak" type="button" class="primary" disabled data-i18n="output.speak">▶ 発声</button>
+          <button id="btn-stop" type="button" disabled data-i18n="output.stop">■ 停止</button>
+          <button id="btn-copy" type="button" disabled data-i18n="output.copy">コピー</button>
+        </div>
+      </div>
+      <p id="result" class="result" aria-live="polite"></p>
+      <p id="roman" class="roman"></p>
+      <p id="phonetic" class="phonetic" hidden></p>
+      <div id="words" class="words" data-i18n-aria="output.words"></div>
+      <p id="unknown" class="unknown-note" hidden></p>
+    </section>
+
+    <section class="panel" aria-labelledby="voice-title">
+      <div class="panel-head"><h2 id="voice-title" data-i18n="voice.title">声の設定</h2></div>
+      <div class="grid">
+        <label><span data-i18n="voice.style">発音スタイル</span>
+          <select id="style">
+            <option value="it" selected data-i18n="style.it">イタリア語風（ラテン語に近い）</option>
+            <option value="de" data-i18n="style.de">ドイツ語風</option>
+            <option value="es" data-i18n="style.es">スペイン語風</option>
+            <option value="en" data-i18n="style.en">英語風</option>
+            <option value="ja" data-i18n="style.ja">日本語（カタカナ読み）</option>
+          </select>
+        </label>
+        <label><span data-i18n="voice.voice">声</span>
+          <select id="voice"></select>
+        </label>
+        <label><span data-i18n="voice.preset">プリセット</span>
+          <select id="preset">
+            <option value="normal" data-i18n="preset.normal">標準</option>
+            <option value="soldier" selected data-i18n="preset.soldier">帝国兵（低く重く）</option>
+            <option value="oracle" data-i18n="preset.oracle">巫女（高く静かに）</option>
+            <option value="machine" data-i18n="preset.machine">古代機械（ゆっくり）</option>
+          </select>
+        </label>
+        <label><span><span data-i18n="voice.rate">速さ</span> <output id="rate-out">1.20</output></span>
+          <input id="rate" type="range" min="0.5" max="1.6" step="0.05" value="1.2">
+        </label>
+        <label><span><span data-i18n="voice.pitch">高さ</span> <output id="pitch-out">0.60</output></span>
+          <input id="pitch" type="range" min="0" max="2" step="0.05" value="0.6">
+        </label>
+        <label class="check"><input id="auto-speak" type="checkbox" checked> <span data-i18n="voice.autoSpeak">翻訳したら自動で発声</span></label>
+        <label class="check"><input id="intonation" type="checkbox" checked> <span data-i18n="voice.intonation">抑揚を強調する（句ごとに声の高さを変える）</span></label>
+        <label class="check"><input id="past-marker" type="checkbox" checked> <span data-i18n="voice.pastMarker">過去形に「エデ」を付ける</span></label>
+      </div>
+      <p id="voice-warning" class="warning" hidden></p>
+    </section>
+
+    <section class="panel" aria-labelledby="dict-title">
+      <div class="panel-head">
+        <h2 id="dict-title" data-i18n="dict.title">辞書</h2>
+        <span id="dict-count" class="badge"></span>
+      </div>
+      <input id="dict-search" type="search" data-i18n-placeholder="dict.search">
+      <div class="table-wrap">
+        <table class="dict">
+          <thead><tr>
+            <th data-i18n="dict.colJa">日本語</th><th data-i18n="dict.colPz">パンツァー語</th><th data-i18n="dict.colSpell">綴り</th>
+            <th data-i18n="dict.colEn">英語</th><th data-i18n="dict.colCat">分類</th><th></th>
+          </tr></thead>
+          <tbody id="dict-body"></tbody>
+        </table>
+      </div>
+      <details class="user-dict">
+        <summary data-i18n="dict.addSummary">単語を追加する（このブラウザにだけ保存されます）</summary>
+        <form id="user-form" class="user-form">
+          <input name="ja" data-i18n-placeholder="dict.addJa" required>
+          <input name="pz" data-i18n-placeholder="dict.addPz" required>
+          <input name="en" data-i18n-placeholder="dict.addEn">
+          <button type="submit" data-i18n="dict.add">追加</button>
+        </form>
+        <ul id="user-list" class="user-list"></ul>
+      </details>
+    </section>
+
+    <section class="panel about">
+      <h2 data-i18n="about.title">翻訳のしくみ</h2>
+      <ol>
+        <li data-i18n="about.step1"></li>
+        <li data-i18n="about.step2"></li>
+        <li data-i18n="about.step3"></li>
+        <li data-i18n="about.step4"></li>
+      </ol>
+      <p data-i18n-html="about.loan"></p>
+      <p data-i18n-html="about.dict"></p>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p data-i18n="footer.source"></p>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="data/dictionary.js"></script>
+  <script src="js/translator.js"></script>
+  <script src="js/phonetics.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

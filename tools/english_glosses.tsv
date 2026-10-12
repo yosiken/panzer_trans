@@ -1,0 +1,484 @@
+# 日本語見出し<TAB>英語(カンマ区切り, 原形・小文字)。英語入力の翻訳に使う。
+# 同じ英単語が複数の見出しにある場合は辞書で先に出てくる語が使われる。
+Dユニット	d-unit
+帝国	empire, imperial
+帝都	capital
+船	ship, boat
+皇帝陛下	emperor, majesty
+閣下	excellency, lord, sir
+隊長	captain, commander
+アカデミー	academy
+地面	ground, soil
+地上	surface
+辺境	frontier
+地域	region, area
+国境	border
+発掘所	excavation site, dig site
+街	town, city
+村	village
+砂漠	desert
+森	forest, woods
+地下	underground
+塔	tower
+旧世紀	ancient age, old world
+攻性生物	bioweapon, monster
+変種	variant
+純粋	pure
+翼	wing, wings
+人	person, people, human, man
+少女	girl
+女	woman
+男	man
+子供	child, kid, children
+父親	father, dad
+命	life
+人手	hand, hands, help
+家	house, home
+結婚	marriage, marry
+友達	friend
+自由	freedom, free
+階段	stairs
+井戸	well
+歌	song
+子羊	lamb, sheep
+商品	goods
+物	thing
+水	water
+食料	food
+光	light
+飛行	flight
+旅	journey, travel, trip
+空	sky
+嵐	storm
+麦	wheat
+亜麻	flax
+葡萄	grape, grapes, vine
+木	tree, wood
+太陽	sun
+雨	rain
+風	wind
+吹雪	blizzard
+塩	salt
+水銀の霧	poisoned air, mist
+喉	throat
+瞳	eye, eyes
+小屋	hut
+戦場	battlefield
+実戦	combat
+敵	enemy
+味方	ally, friend
+仇	foe
+本隊	main force
+連絡	contact
+報告	report
+入電	transmission, incoming
+信号	signal
+プログラム	program
+計画	plan
+作戦	operation, mission
+準備	preparation, prepare, ready
+規則	rule
+掟	law
+指示	instruction, order
+反逆	rebellion, rebel, betray
+違反	violation
+無茶	reckless
+救難	rescue
+保証	guarantee
+出来事	event
+行為	act, action
+経験	experience
+話	story, talk
+気持ち	feeling
+状態	status, condition
+異常	anomaly, abnormal, trouble
+タイプ	type
+機能	function, work
+目的	purpose, goal
+原因	cause
+象徴	symbol
+力	power, strength, force
+無力	powerless
+謎	mystery
+孤独	loneliness, lonely, alone
+復活	revival, revive
+恐怖	fear, terror
+入る	enter
+出る	exit
+来る	come
+到着	arrive
+向かう	head, go
+去る	leave
+進む	advance, proceed
+戻る	return
+通過する	pass
+移る	move
+遭遇	encounter
+逃げる	escape, flee, run away
+追う	chase, follow
+待ち伏せする	ambush
+落ちる	fall
+消える	disappear, vanish
+起動	launch, start up
+止める	stop
+暴走	rampage
+減る	decrease
+足りる	enough
+消滅	destroyed, annihilation
+開放	release, open
+生きる	live, alive
+生まれる	be born, born
+生き延びた	survive
+戦闘	battle, fight
+殺す	kill
+やぶる	break
+守っている	protect, defend, guard
+なつく	trust
+捕獲する	capture
+助け	help, save
+呼ぶ	call
+教える	teach, tell
+頼む	ask, request
+渡す	hand over, give
+売る	sell
+雇われる	hired
+関わる	involve
+代わる	replace
+比べる	compare
+実行する	execute, do
+見る	see, look, watch
+無視する	ignore
+言う	say, speak, tell
+聞く	hear, listen
+知る	know
+理解	understand
+思う	think
+望む	want, wish, hope
+確認	confirm, check
+探す	search, look for
+発見	discover, find, found
+手に入れる	get, obtain
+持つ	have, hold
+運ぶ	carry
+放す	let go
+捨てる	abandon, throw away
+まく	sow
+焼く	burn
+織る	weave, knit
+放牧する	herd
+凍らせる	freeze
+最後の	last, final
+戦闘用の	combat
+偵察用の	scout
+不思議な	strange, mysterious, wonderful
+不吉な	cursed, ominous
+偶然の	accidental
+真の	true
+巨大な	huge, giant
+怯えた	scared, afraid
+青白い	pale
+あつい	hot
+激しい	fierce
+気楽	easy
+正しい	right, correct
+良い	good, nice, fine
+嫌	no way, hate
+なにもない	nothing
+全て	all, everything
+他	other
+次の	next
+前に	before, ago
+完全に	completely
+すごい	great, amazing, awesome, wow
+沢山	many, much, lots
+何度でも	again
+お前は	you
+私	me
+私の	my
+私は	i
+私たちは	we
+私達の	our
+彼は	he, him
+彼らは	they, them
+誰かが	someone, somebody
+それは	it
+あれ	that
+この	this
+~から	from
+~まで	until, till
+~の様に	like as
+~と一緒に	with
+中	in, inside, into
+越えたところ	beyond
+中心	center
+なぜ	why
+何を	what
+きっと	surely, certainly
+~かもしれない	maybe, perhaps, might
+もし~なら	if, when
+~したい	want to
+~する前に	before
+でも	but, however
+それに	besides
+ただ	just, only
+そして	and, then
+その時	at that time
+最近	recently
+すぐに	soon, immediately, quickly
+いつも	always
+既に	already
+まだ	still, yet
+その後	after
+今	now
+時	time
+分	minute
+日	day
+明日	tomorrow
+朝	morning
+夕方	evening
+黄昏	twilight, dusk
+今日	today
+昨日	yesterday
+時代	era, age
+夜明け	dawn, daybreak
+0	zero
+1	one
+2	two
+3	three
+4	four
+5	five
+6	six
+7	seven
+8	eight
+9	nine
+10	ten
+11	eleven
+12	twelve
+20	twenty
+30	thirty
+100	hundred
+1000	thousand
+速度	speed
+最大	maximum, max
+東	east
+西	west
+北	north
+南	south
+御意	yes sir, roger
+なんだ	what the
+どうだ	how about it
+いいか	listen
+畜生	damn
+くそ	shit, crap
+逃げろ	run
+ばか	fool, idiot, stupid
+狙え	aim
+待て	wait
+急いで	hurry
+目標	target
+位置	position, location
+全員	everyone, everybody
+騎兵隊	cavalry
+奪う	steal, take
+取り返す	take back, retrieve
+~の上	on, above, over
+出撃	sortie
+完了	complete, done
+地雷	mine
+よし	okay, ok, alright
+港	port, harbor
+火	fire
+燃える	burn up
+許す	forgive, allow, let
+砲台	cannon
+撃つ	shoot, fire at
+破壊する	destroy
+死ぬ	die, dead
+死	death
+操る	control
+司令部	headquarters
+宮殿	palace
+~すぎる	too
+傷つく	hurt
+どこに	where
+矢	arrow
+獣	beast
+戦艦	battleship
+白の	white
+葬る	bury
+噂	rumor
+ここ	here
+亞人	drone
+人形	doll
+技師	engineer
+ひどい	terrible, awful
+悔しい	frustrating
+線	line
+招く	invite
+必要とする	need
+続ける	continue
+炉	furnace, reactor
+鍋	pot
+汚い	dirty
+民	folk, nation
+避ける	avoid
+巣	nest
+効果	effect
+後ろ	behind, back
+血	blood
+兵器	weapon
+産む	give birth, create
+きもちわるい	disgusting, gross
+魚	fish
+近い	near, close
+兵士	soldier
+空中艇	airship
+左	left
+右	right side
+艦橋	bridge
+蝿	housefly
+囲む	surround
+潰す	crush
+静か	quiet, silent
+警戒	caution, alert
+同じ	same
+~ねばならない	must, have to
+名前	name
+石	stone, rock
+~以外	except
+記憶	memory
+記録	record
+回路	circuit
+再起動	reboot, restart
+始める	begin, start
+元素	element
+主人	master
+成功	success, succeed
+門	gate
+開く	open
+閉じる	close, shut
+部屋	room
+空間	space
+除去する	remove
+失敗	failure, fail
+解析	analyze, analysis
+認証	authentication
+眠る	sleep
+~のため	for
+理由	reason
+亡霊	ghost
+早い	fast, early
+考える	consider, wonder
+悩む	worry
+胎児	embryo
+目覚める	wake, awaken, wake up
+永久	forever, eternal
+道	road, way, path
+命令	command
+お前の	your
+体	body
+壊れ行く	crumbling
+さようなら	goodbye, bye, farewell
+私自身	myself
+吹く	blow
+新しい	new
+震える	tremble, shake
+喜び	joy
+工場	factory
+迎撃	intercept
+戦車	tank, vehicle
+建造	build
+導く	guide, lead
+防御	defense, shield
+お前	you guys
+腕	arm
+宿命	fate, destiny
+災厄	disaster, calamity
+用意	readiness
+変形する	transform
+叡智	wisdom
+艦隊	fleet
+すまん	sorry
+遅れる	late
+無数の	countless
+眠り	slumber
+危険	danger, dangerous
+作る	make
+大昔	ancient
+景色	view, scenery
+向こう側	other side
+使う	use
+煙	smoke
+突進	charge, rush
+振り向く	turn around
+上手	skillful
+虫	bug, insect
+~するな	don't
+一度	once
+装置	device
+大切	important, precious
+休憩	rest, break
+食べる	eat
+耐える	endure, bear
+獲物	prey
+飛ぶ	fly away, fly
+ほとんど	almost
+弱い	weak
+盾	armor
+制圧	conquer
+安心	relief, safe
+手	hand
+痛い	painful, ouch
+慎重	careful
+ボタン	button
+上昇	rise, ascend, go up
+覚える	remember
+感覚	sense
+難しい	difficult, hard
+強い	strong
+長い	long
+驚き	surprise, surprised
+衝撃	shock
+罰	punishment
+謝罪	apology
+ドラゴン	dragon
+自分	self
+必ず	definitely, always
+これ	these
+それ	those
+着る	wear
+生活	living
+怪我	injury, wound
+ありがとう	thank you, thanks
+はい	yes
+救う	rescue
+本気	serious
+嬉しい	happy, glad
+秘密	secret
+了解	understood
+可能	possible, can
+気配	presence
+異なる	different
+訓練	training, train
+上	up
+下	down, under
+健康	health
+舌	tongue
+噛む	bite
+間違い	mistake
+信じる	believe
+鎖	chain, chains
+牢	prison, cell, jail
+感染	infection
+歓迎	welcome
+心	heart, mind
+雪	snow
+答え	answer
+世界	world
+昔	long ago
+娘	daughter
+愛する	love
+母親	mother, mom
+生物	creature
+祖父	grandfather
+始まる	begin

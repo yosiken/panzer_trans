@@ -1,0 +1,693 @@
+# 資料 (パンツァー語辞典_ORTA.xls / パンツァー語辞書.xlsx) から取り出した辞書。
+# 元の Excel はリポジトリから削除したため、この表が資料の辞書の原本になる。
+# 列: 日本語 <TAB> パンツァー語 <TAB> 分類 <TAB> 補足 <TAB> 種類(word/suffix/frame/marker) <TAB> 綴り(アゼル)
+Dユニット	デュラコーン	名詞		word	
+帝国	インペニア	名詞		word	INPENIA
+帝都	スィビタス	名詞		word	CIVITAS
+船	ナウス	名詞		word	
+皇帝陛下	インポーター	名詞		word	IMPERTOR
+閣下	ザズ	名詞		word	ZAZU
+隊長	センチュリオ	名詞		word	CENTURIO
+アカデミー	ウーニウェル	名詞		word	UNIVEL
+地面	ソラーム	名詞		word	
+地上	ストラテ	名詞		word	
+辺境	エレモナ	名詞	人の少ない	word	
+地域	ゲール	名詞	地域	word	
+国境	フォーロス	名詞		word	
+発掘所	エクセウル	名詞		word	EKCEUL
+街	スィタス	名詞		word	CIVITAS
+村	ロギール	名詞		word	
+村	コーメ	名詞		word	
+砂漠	ザード	名詞		word	ZARD
+森	ゲノス	名詞		word	
+地下	サブター	名詞		word	SABUTER
+塔	テリス	名詞		word	TERIS
+旧世紀	リキュア	名詞		word	RIKYUAR
+攻性生物	マクラルメイティオ	名詞		word	MAKURARU-MATIO
+変種	ラクセニア	名詞		word	RACSENIA
+純粋	ムルス	名詞		word	MURUS
+翼	イーヴァ	名詞		word	
+人	ラオス	名詞		word	RAOS
+少女	コーレ	名詞		word	
+女	フェミン	名詞		word	FEMIN
+男	フェン	名詞		word	FEN
+子供	プエリリス	名詞		word	PUERILIS
+ガキ	ペティヤ	名詞		word	PETIYA
+父親	ポーター	名詞		word	PARTAR
+命	ヴィタ	名詞		word	VITA
+人手	マウン	名詞		word	MAUN
+家	ドムス	名詞		word	DOMS
+結婚	リオニル	名詞		word	RIONIL
+友達	エイミクス	名詞		word	AMICUS
+自由	リバータス	名詞		word	REBARTAS
+階段	スカール	名詞		word	SCARE
+井戸	プトゥス	名詞		word	PUTUS
+歌	カントゥス	名詞		word	CANTUS
+子羊	シーファ	名詞		word	
+商品	メルクス	名詞		word	
+物	レス	名詞		word	RES
+水	イクア	名詞		word	IQUA
+食料	ディバリア	名詞		word	DIBALIA
+光	フェゴス	名詞		word	
+飛行	プテラ	名詞		word	
+旅	レイア	名詞		word	
+空	ウーラノス	名詞		word	
+嵐	ミンブス	名詞		word	MINBUS
+麦	クリース	名詞		word	
+亜麻	リネム	名詞		word	
+葡萄	ウーワァ	名詞		word	
+葡萄の木	ウーワァ	名詞		word	
+木	アーハ	名詞		word	
+太陽	ソール	名詞		word	
+雨	プルィア	名詞		word	
+風	ウォント	名詞		word	
+吹雪	ウォント	名詞		word	
+塩	ヘルス	名詞		word	
+水銀	ネヒュラ	名詞		word	
+水銀の霧	ネヒュラ	名詞		word	
+瞳	コール	名詞		word	
+喉	ライモス	名詞		word	
+小屋	スケーネ	名詞		word	
+戦場	レトラーン	名詞		word	
+実戦	アゴウル	名詞		word	AGOULE
+敵	ホスティス	名詞		word	HOSTIS
+味方	スオス	名詞		word	SUOS
+かたき	ダルーカ	名詞		word	
+仇	ダルーカ	名詞		word	
+本隊	ウシア センチュリア	名詞		word	USIA-CENTURIA
+連絡	プロームル	名詞		word	
+報告	レラティオ	名詞		word	RERATIO
+入電	ムーニカーツ	名詞		word	MUNIKARTS
+信号	カーツ	名詞		word	KARTS
+プログラム	スカディオン	名詞		word	
+計画	コンシリウム	名詞		word	CONSILIUM
+作戦	プロシット	名詞		word	PROSIT
+準備	レイティオ	名詞		word	REITIO
+規則	プラエセテム	名詞		word	PRAECETUM
+掟	デュカティ	名詞		word	
+指示	ポレストゥム	名詞		word	PRESTEM
+反逆	レベル	名詞		word	REVEL
+違反	デリクム	名詞		word	DELICM
+無茶	カレンティア	名詞		word	CARENTIA
+救難	アウクシル	名詞		word	AUXIL
+保証	オークトータス	名詞		word	ORCUTOTAS
+出来事	アーノス	名詞		word	
+行為	ファクト	名詞		word	FACTO
+経験	エンプリクス	名詞		word	EMPRICUS
+話	ロエ	名詞		word	
+気持ち	ニムス	名詞		word	NIMUS
+状態	ヘクシスト	名詞		word	
+異常	インソレンティア	名詞		word	INSOLENTIA
+タイプ	ファルマ	名詞		word	
+機能	ポテンティア	名詞		word	POTENTIA
+目的	コンシル	名詞		word	CONSIL
+由縁	パルティス	名詞		word	PARTICI
+原因	フォンス	名詞		word	FONS
+象徴	ヴォーン	名詞		word	
+力	デューヴ	名詞		word	
+無力	ランギス	名詞		word	LANGIBUS
+謎	コンフォディオ	名詞		word	
+孤独	エレーミア	名詞		word	
+復活	リズルグ	名詞		word	REZURG
+恐怖	ディノーツ	名詞		word	
+入る	レルテ	動詞		word	
+出る	エクシア	動詞		word	EXIR
+来る	ヴェニヤ	動詞		word	VENIYA
+やってきた	フェルケス	動詞		word	FERUKES
+到着	ヴェニア	動詞		word	VENIRE
+向かう	イーレ	動詞		word	
+去る	イーレ	動詞		word	
+進む	セーダー	動詞		word	SEDER
+戻る	レスプ	動詞		word	RESPU
+通過する	ルツェーデュ	動詞		word	
+移る	トランシア	動詞		word	TRANSIA
+遭遇	ヘウレス	動詞		word	HEURES
+逃げる	ラテオ	動詞		word	
+追う	フォニーバ	動詞		word	
+待ち伏せする	エネドール	動詞		word	
+落ちる	コーダー	動詞		word	CORDAR
+消える	エワァスセーレ	動詞		word	
+起動	プラスェーパ	動詞		word	
+進行中	ペタストィーゼ	動詞		word	
+止める	イペク	動詞		word	
+暴走	フール	動詞		word	FURU
+減る	ミヌス	動詞		word	MINUS
+足りる	セフィルス	動詞		word	SEFISRU
+消滅	バヌス	動詞		word	VANUS
+跡がある	リンクル	動詞		word	LINCRU
+開放	エピクラシス	動詞		word	
+生きる	ウィウィーレ	動詞		word	
+生まれる	ゲネーマ	動詞		word	GNERMA
+生き延びた	ヴィス	動詞		word	VIS
+戦闘	アゴーラ	動詞		word	
+殺す	ゲスケルデ	動詞		word	GESKELDE
+やぶる	ラグマ	動詞		word	
+守っている	ディフェンシオ	動詞		word	DEFENSIO
+なつく	リューヴァ	動詞		word	
+捕獲する	プレヘンデル	動詞		word	
+助け	アウクシリオ	動詞		word	AUXILIO
+呼ぶ	ヴォカル	動詞		word	VOCAL
+教える	ドクトル	動詞		word	DOCTOL
+頼む	ロガトゥス	動詞		word	ROGATUS
+渡す	トレーダー	動詞		word	TREDAR
+売る	ベンダー	動詞		word	BENDAR
+雇われる	エクセウラ	動詞		word	EKCEULAD
+関わる	ペルティナー	動詞		word	PERTINERE
+かかずりあう	ペルティナー	動詞		word	PERTINERE
+代わる	モータル	動詞		word	MOTARU
+比べる	エルガ	動詞		word	ERGA
+実行する	イエナ	動詞		word	IENA
+行う	イエナ	動詞		word	IENA
+~する	イエナ	動詞		suffix	IENA
+見る	プトラトマ	動詞		word	PTORATOMA
+無視する	デアネース	動詞		word	
+言う	ナルヴ	動詞		word	
+言う	エナ	動詞		word	ENA
+聞く	アケイ	動詞		word	
+知る	コグニトゥム	動詞		word	COGNITUM
+知る	ノスケレート	動詞		word	
+理解	ディンテリゲル	動詞		word	DINTELLGERU
+思う	ノミータ	動詞		word	
+望む	ポッセ	動詞		word	POSSE
+確認	ベバイス	動詞		word	
+発する	プロフェーポ	動詞		word	
+探す	クェイル	動詞		word	QUAEL
+発掘	エクセウル	動詞		word	EKCEUL
+発見	ヘウレス	動詞		word	HEURES
+手に入れる	アトラクター	動詞		word	ATRANTER
+持つ	エネファス	動詞		word	
+運ぶ	フローター	動詞		word	PORTARE
+放す	エクスペディア	動詞		word	EXPEDIA
+捨てる	レリクス	動詞		word	RELICS
+まく	セレーレ	動詞	種を	word	
+焼く	トゥレーレ	動詞		word	
+織る	ティセーレ	動詞	布を	word	
+放牧する	アレーレ	動詞		word	
+歌	カネーレ	動詞	(をささやく)	word	
+凍らせる	クリスターロ	動詞		word	
+最終	エスカト	形容詞		word	
+最後の	エスカト	形容詞		word	
+戦闘用の	マクラール	形容詞		word	
+偵察用の	プロスコープ	形容詞		word	
+人為的	ラオス フィング	形容詞		word	RAOS-FING
+不思議な	メステル	形容詞		word	
+不吉な	ヴァスカーノ	形容詞		word	
+不吉の	ヴァスカーノ	形容詞		word	
+偶然の	イオティエル	形容詞		word	
+真の	エルス	形容詞		word	
+巨大な	ラディノール	形容詞		word	
+怯えた	ブロマーグ	形容詞		word	
+青白い	フロモース	形容詞		word	
+あつい	ターレス	形容詞		word	TARES
+激しい	ヴェルデ	形容詞		word	VERUD
+気楽	エクスペドゥル	形容詞		word	EXPEDRE
+正しい	グスタス	形容詞		word	GUSTAS
+良い	ボヌム	形容詞		word	BONUM
+嫌	インヴィトゥス	形容詞		word	INVITUS
+なにもない	ニヒル	数量関係		word	NIHIL
+全て	オムニノ	数量関係		word	OMNINO
+他	アリエン	数量関係		word	ALIEN
+あまり	レスター	数量関係		word	RESTER
+隣り	クニティウム	数量関係		word	QUNITIUM
+次の	ポスタルス	数量関係		word	POSTALS
+次に	ポスタルス	数量関係		word	POSTALS
+前の	プライアー	数量関係		word	PRAIAR
+前に	プライアー	数量関係		word	PRAIAR
+完全に	インテグル	数量関係		word	INTEGLU
+こんな	ザ	数量関係	(意味を拡大する前置詞)	word	ZA
+すごい	ザ	数量関係	(意味を拡大する前置詞)	word	ZA
+この程度の	ウ サムス	数量関係		word	U SUMMUS
+程度	オルド	数量関係		word	ORDO
+沢山	ムルトゥス	数量関係		word	MULTUS
+何度でも	インテル	数量関係		word	INTEL
+もの	オルド	数量関係	(この程度のもの)	word	ORDO
+お前は	トゥ	代名詞・人称代名詞		word	TU
+私達の	ノステム	代名詞・人称代名詞		word	NOSTEM
+私たちは	ノスター	代名詞・人称代名詞		word	NOSTER
+私たちが	ノスター	代名詞・人称代名詞		word	NOSTER
+私	ム	代名詞・人称代名詞		word	MU
+私の	ム	代名詞・人称代名詞		word	MU
+私は	エナ	代名詞・人称代名詞		word	ENA
+彼は	ノル	代名詞・人称代名詞		word	NOL
+彼らは	アフテ	代名詞・人称代名詞		word	
+彼らが	アフテ	代名詞・人称代名詞		word	
+誰かが	ティスタ	代名詞・人称代名詞		word	
+誰かが	エ	代名詞・人称代名詞		word	
+それは	ダナ	代名詞・人称代名詞		word	DANA
+それを	ツァ	代名詞・人称代名詞		word	
+あれ	アルヴォ	代名詞・人称代名詞		word	ARVO
+あれは	ディ	代名詞・人称代名詞		word	DY
+それが	トゥセ	代名詞・人称代名詞		word	TSE
+そのように	エトゥラール	代名詞・人称代名詞		word	
+この	ヒック	代名詞・人称代名詞		word	HIC
+こいつは	ヒック	代名詞・人称代名詞		word	HIC
+~の	~ル	前置詞	(属するの意)	suffix	
+~から	アイオ	前置詞		suffix	AIO
+~から	メサ	前置詞		suffix	MESA
+~まで	ウスクェ	前置詞		suffix	USQUE
+~の様に	リュオ	前置詞		suffix	
+~する事	ツゥ	前置詞		suffix	UT
+~する事を	ツゥ	前置詞		suffix	UT
+~に	エスト	前置詞		suffix	EST
+~も	エスト	前置詞		suffix	EST
+~と一緒に	イン	前置詞		suffix	
+足下	ペデス	前置詞		word	PEDES
+前	プライヤー	前置詞		word	PRAIAR
+中	インタス	前置詞		word	INTAS
+~で	インタス	前置詞		suffix	INTAS
+越えたところ	トラシル	前置詞		word	TRASIL
+中心	メディウム	前置詞		word	MEDIUM
+陰にある	ケート	前置詞		word	
+なぜ	ティ	可能・疑問・否定		word	TY
+(疑問詞)	トゥーン エス	可能・疑問・否定		marker	TUNE ES
+何を	クイッドゥ	可能・疑問・否定		word	QUID
+何をしても	クイディア	可能・疑問・否定		word	
+きっと	サフォース	可能・疑問・否定		word	
+(推定)	メト	可能・疑問・否定		marker	
+~かもしれない	ミトス	可能・疑問・否定		suffix	MITOS
+もし~なら	アヌ	可能・疑問・否定		frame	ANU
+~なんて	シ	可能・疑問・否定		suffix	SI
+~らしい	ミリス	可能・疑問・否定		suffix	MIRIS
+~つもりだ	オヌトゥ	可能・疑問・否定		suffix	
+~したい	ペス	可能・疑問・否定		suffix	PES
+~できる	イエナ	可能・疑問・否定		suffix	IENA
+~がいる	エッセ	可能・疑問・否定		suffix	ESSE
+~になる	ゼーン	可能・疑問・否定		suffix	ZEN
+~です	イエ	可能・疑問・否定		suffix	IE
+~する	イエ	可能・疑問・否定		suffix	IE
+~したら	アヌ	可能・疑問・否定		suffix	ANU
+~する前に	アパット	可能・疑問・否定		suffix	
+(否定)	デ	可能・疑問・否定		marker	DE
+でも	タブ	可能・疑問・否定		word	
+しかし	タブ	可能・疑問・否定		word	
+それに	ダナ	可能・疑問・否定		word	DANA
+ただ...	ダール	可能・疑問・否定		word	
+ただ	ダール	可能・疑問・否定		word	
+せっかく	ギナ	可能・疑問・否定		word	GINA
+それなのに	シ	可能・疑問・否定		word	SI
+なによりも	ロタヌパ	可能・疑問・否定		word	
+そして	カイ	可能・疑問・否定		word	
+その時	トゥム	時制関係		word	
+最近	ルカーノ	時制関係		word	
+やけに	シフ	時制関係		word	
+すぐに	エウテュス	時制関係		word	EUTYUSU
+すぐに	リケラ	時制関係		word	
+いつも	クオ	時制関係		word	QUO
+既に	ジャム	時制関係		word	JAM
+あと	ポスト	時制関係		word	POST
+まだ	エティ	時制関係		word	
+その後	スケーマ	時制関係		word	
+今	テーマー	時制関係		word	TEMAR
+時	ポース	時制関係		word	PORS
+とき	ポース	時制関係		word	PORS
+分	パース	時制関係		word	PARS
+日	ディエス	時制関係		word	DIES
+明日	ラス	時制関係		word	RAS
+朝	アネ	時制関係		word	ANE
+夕方	ヘスペリオス	時制関係		word	
+黄昏	ヘスペリオス	時制関係		word	
+旧世紀の	リュキア	時制関係		word	
+今日	テメール	時制関係		word	
+昨日	ヒル	時制関係		word	HIR
+時代	セイクル	時制関係		word	SERCLU
+夜明け	オルタ	時制関係		word	
+0	ニヒル	数字		word	NIHIL
+1	プロト	数字		word	
+2	デュバ	数字		word	
+3	トリニ	数字		word	
+4	クエテゥ	数字		word	
+5	クイニ	数字		word	
+6	セクシ	数字		word	
+7	セプツア	数字		word	
+8	オクタ	数字		word	
+9	ノウェ	数字		word	
+10	デニ	数字		word	
+11	プロディ	数字		word	
+12	ダウディ	数字		word	
+13	デニ トリニ	数字		word	
+14	デニ クエティ	数字		word	
+15	デニ クイニ	数字		word	DENI-QUINI
+16	デニ デクシ	数字		word	
+17	デニ セプティ	数字		word	
+18	デニ オクティ	数字		word	
+19	ノウェディ	数字		word	
+20	デュセニ	数字		word	
+30	トリセニ	数字		word	TRICENI
+40	クアセニ	数字		word	
+50	クイセニ	数字		word	
+60	セクシセニ	数字		word	
+74	セプトゥア クェトゥ	数字		word	SEPTUA QUATE
+80	オクタセニ	数字		word	
+90	ノウィセニ	数字		word	
+100	センツゥム	数字		word	
+1000	ミリア	数字		word	
+10000	デナ ミリア	数字		word	DENA-MILIA
+半径	キュクリウム	数字		word	CYCLIUM
+速度	ヴェロクス	数字		word	VELOX
+最大	アクシウム	数字		word	AXIUM
+東	ルニス	数字		word	
+西	ソリス	数字		word	SOLIS
+すごい	デナス	感嘆、間投詞そのほか		word	
+(感嘆詞)	デナス	感嘆、間投詞そのほか		marker	
+頼む	メトケス	感嘆、間投詞そのほか		word	
+はっ	デナ	感嘆、間投詞そのほか		word	
+御意	デナ	感嘆、間投詞そのほか		word	
+なんだ	ディ	感嘆、間投詞そのほか		word	DY
+なんだあれは	ディ	感嘆、間投詞そのほか		word	DY
+どうだ	クイッドゥ	感嘆、間投詞そのほか		word	QUID
+いいな	メリウスト	感嘆、間投詞そのほか		word	MELIUST
+いいな子供は気楽で	メリウスト	感嘆、間投詞そのほか		word	MELIUST
+いいか	エッセ	感嘆、間投詞そのほか		word	ESSE
+畜生	ペリル	感嘆、間投詞そのほか		word	PERIL
+喜べ	ガーダー	感嘆、間投詞そのほか		word	GAUDRE
+くそ	フェ	感嘆、間投詞そのほか		word	FUE
+逃げろ	フガール	感嘆、間投詞そのほか		word	FUGERE
+ばか	ストゥルト	感嘆、間投詞そのほか		word	STULTO
+狙え	ディリゲル	感嘆、間投詞そのほか		word	DIRIGERE
+待て	ペリトゥス	感嘆、間投詞そのほか		word	PERITUS
+しつこい	モレストゥ	感嘆、間投詞そのほか		word	MOLESTU
+上手い	ペアリトゥス	感嘆、間投詞そのほか		word	PEARITUS
+急いで	フェスティナ	感嘆、間投詞そのほか		word	FESTINA
+目標	パルマ	新規パンツァー語		word	
+位置	テシス	新規パンツァー語		word	
+全員	オムニス	新規パンツァー語		word	
+騎兵隊	エクイテス	新規パンツァー語		word	
+飛行物	プテラノ	新規パンツァー語		word	
+奪う	ラピオ	新規パンツァー語		word	
+取り返す	リキュペロ	新規パンツァー語		word	
+~の上	ヒュペル	新規パンツァー語		suffix	
+出撃	エクドローメ	新規パンツァー語		word	
+完了	プレロ	新規パンツァー語		word	
+地雷	ナルキ	新規パンツァー語		word	
+よし	エウ	新規パンツァー語		word	
+港	リメーン	新規パンツァー語		word	
+発射口	リメーン	新規パンツァー語		word	
+火	ピュール	新規パンツァー語		word	
+燃える	ピュール	新規パンツァー語		word	
+許す	アディア	新規パンツァー語		word	
+~を許す	アディア	新規パンツァー語		suffix	
+させる	アディア	新規パンツァー語		word	
+自由	エレウテ	新規パンツァー語		word	
+砲台	カノニ	新規パンツァー語		word	
+撃つ	アコンティ	新規パンツァー語		word	
+破壊する	デストルエ	新規パンツァー語		word	
+死ぬ	モリ	新規パンツァー語		word	
+死	モリ	新規パンツァー語		word	
+舵	ペダリオ	新規パンツァー語		word	
+操る	ポテスタス	新規パンツァー語		word	
+揚力	トロ	新規パンツァー語		word	
+司令部	バシレイア	新規パンツァー語		word	
+宮殿	バシレイア	新規パンツァー語		word	
+~すぎる	エティア	新規パンツァー語		suffix	
+傷つく	ブラーベ	新規パンツァー語		word	
+どこに	ウィエ	新規パンツァー語		word	
+矢	トクセ	新規パンツァー語		word	
+光の矢	トクセ フェゴス	新規パンツァー語		word	
+獣	テール	新規パンツァー語		word	
+戦艦	ナウスマクラ	新規パンツァー語		word	
+白の	アルブム	新規パンツァー語		word	
+葬る	タフォス	新規パンツァー語		word	
+埋める	タフォス	新規パンツァー語		word	
+噂	フェイメ	新規パンツァー語		word	
+迷信	フェイメ	新規パンツァー語		word	
+ここ	エンタ	新規パンツァー語		word	
+亞人	コーレ	新規パンツァー語		word	
+人形	コーレ	新規パンツァー語		word	
+技師	テクニーテ	新規パンツァー語		word	
+ひどい	アイガ	新規パンツァー語		word	
+悔しい	アイガ	新規パンツァー語		word	
+北	サイクス	新規パンツァー語		word	
+南	パイレス	新規パンツァー語		word	
+線	グランメ	新規パンツァー語		word	
+招く	パラカ	新規パンツァー語		word	
+必要とする	アナンキ	新規パンツァー語		word	
+続ける	ディアテル	新規パンツァー語		word	
+炉	キュトラ	新規パンツァー語		word	
+鍋	キュトラ	新規パンツァー語		word	
+ワームライダー	カンペクウェス	新規パンツァー語		word	
+汚い	トレロス	新規パンツァー語		word	
+忌まわしい	カコス	新規パンツァー語		word	
+民	デモス	新規パンツァー語		word	
+遠慮する	ウィターレ	新規パンツァー語		word	
+避ける	ウィターレ	新規パンツァー語		word	
+帝国ども	インペシ	新規パンツァー語		word	
+巣	ネオッティ	新規パンツァー語		word	
+対○○	アンティー	新規パンツァー語	(がある)	word	
+効果	エルゴン	新規パンツァー語		word	
+後ろ	オピッセ	新規パンツァー語		word	
+血	ウィタ	新規パンツァー語		word	
+兵器	アルマ	新規パンツァー語		word	
+産む	ゲンナー	新規パンツァー語		word	
+きもちわるい	ゲーロ	新規パンツァー語		word	
+魚	ピスシ	新規パンツァー語		word	
+近い	プレシオ	新規パンツァー語		word	
+兵士	ミーレス	新規パンツァー語		word	
+空中艇	プラノ	新規パンツァー語		word	
+左	シニス	新規パンツァー語		word	
+右	デクス	新規パンツァー語		word	
+艦橋	ゲフィラ	新規パンツァー語		word	
+蝿	ムスカ	新規パンツァー語		word	
+囲む	エイルゲイン	新規パンツァー語		word	
+潰す	コンプリム	新規パンツァー語		word	
+静か	シーレ	新規パンツァー語		word	
+警戒	エウァベ	新規パンツァー語		word	
+同じ	アウト	新規パンツァー語		word	
+~ねばならない	ウイ	新規パンツァー語		suffix	
+名前	オノマ	新規パンツァー語		word	
+名づける	オノマ	新規パンツァー語		word	
+石	リトス	新規パンツァー語		word	
+ジーン	イェネア	新規パンツァー語		word	
+~される	イェ	新規パンツァー語		suffix	
+~以外	プラエテ	新規パンツァー語		suffix	
+~した	エデ	新規パンツァー語		suffix	
+すでに	エデ	新規パンツァー語		word	
+記憶	ムネーメ	新規パンツァー語		word	
+記録	ムネーメ	新規パンツァー語		word	
+回路	カタスケゥ	新規パンツァー語		word	
+再起動	アナネウス	新規パンツァー語		word	
+始める	アルケ	新規パンツァー語		word	
+元素	ストイケ	新規パンツァー語		word	
+主人	ドミヌス	新規パンツァー語		word	
+成功	オルトゥス	新規パンツァー語		word	
+門	ディオド	新規パンツァー語		word	
+開く	アノイン	新規パンツァー語		word	
+閉じる	クレーイン	新規パンツァー語		word	
+部屋	コーラ	新規パンツァー語		word	
+空間	コーラ	新規パンツァー語		word	
+セル	コーラ	新規パンツァー語		word	
+除去する	アファイレイン	新規パンツァー語		word	
+失敗	ハマルト	新規パンツァー語		word	
+解析	アナスケウ	新規パンツァー語		word	
+認証	アナグーノ	新規パンツァー語		word	
+眠る	ヒュプヌーン	新規パンツァー語		word	
+~のため	カウサ	新規パンツァー語		suffix	
+理由	カウサ	新規パンツァー語		word	
+亡霊	ファスマ	新規パンツァー語		word	
+早い	プロース	新規パンツァー語		word	
+考える	ノイエン	新規パンツァー語		word	
+悩む	ノイエン	新規パンツァー語		word	
+胚	パルトゥス	新規パンツァー語		word	
+胎児	パルトゥス	新規パンツァー語		word	
+目覚める	エゲーイレ	新規パンツァー語		word	
+永久	アイオーン	新規パンツァー語	~に	word	
+道	ウィア	新規パンツァー語		word	
+やり方	ウィア	新規パンツァー語		word	
+命令	プロスタム	新規パンツァー語		word	
+指示	プロスタム	新規パンツァー語		word	
+お前の	トゥース	新規パンツァー語		word	
+身体	ソーマ	新規パンツァー語		word	
+肉体	ソーマ	新規パンツァー語		word	
+体	ソーマ	新規パンツァー語		word	
+壊れ行く	カドゥクス	新規パンツァー語		word	
+さようなら	カイーレ	新規パンツァー語		word	
+私自身	イーゴ	新規パンツァー語		word	
+吹く	フィス	新規パンツァー語	(風が)	word	
+新しい	ノウゥス	新規パンツァー語		word	
+震える	セイエス	新規パンツァー語		word	
+喜び	アレスケ	新規パンツァー語		word	
+~または~	アウトゥ	新規パンツァー語		suffix	
+工場	エルガ	新規パンツァー語		word	ERGA
+迎撃	アナコップ	新規パンツァー語		word	
+車両	マヒス	新規パンツァー語		word	
+戦車	マヒス	新規パンツァー語		word	
+港	リーメン	新規パンツァー語		word	
+整備場	リーメン	新規パンツァー語		word	
+建造	オイコドム	新規パンツァー語		word	
+造船	オイコドム	新規パンツァー語		word	
+導く	ヒゲイス	新規パンツァー語		word	
+案内する	ヒゲイス	新規パンツァー語		word	
+防御	エリュマ	新規パンツァー語		word	
+防衛隊	エリュマ	新規パンツァー語		word	
+お前	ディ	新規パンツァー語		word	DY
+腕	ブラッキオン	新規パンツァー語		word	
+宿命	モリア	新規パンツァー語		word	
+災厄	モリア	新規パンツァー語		word	
+用意	パラスケウ	新規パンツァー語		word	
+変形する	メタスケム	新規パンツァー語		word	
+叡智	ソフィム	新規パンツァー語		word	
+艦隊	ナウティコ	新規パンツァー語		word	
+すまん	パールゴ	新規パンツァー語		word	
+遅れる	ヒステ	新規パンツァー語		word	
+無数の	アナリスメ	新規パンツァー語		word	
+眠り	ハイプノ	新規パンツァー語		word	
+貸し借り	オフェイル	新規パンツァー語		word	
+危険	キンディ	新規パンツァー語		word	
+作る	ポイエ	新規パンツァー語		word	
+大昔	アルカイオ	新規パンツァー語		word	
+景色	セアマ	新規パンツァー語		word	
+向こう側	エナンティ	新規パンツァー語		word	
+おまえたち	トゥス	新規パンツァー語		word	
+使う	クレス	新規パンツァー語		word	
+煙	カプノ	新規パンツァー語		word	
+並ぶ	ホム	新規パンツァー語		word	
+突進	イルーオ	新規パンツァー語		word	
+後ろ	イスキア	新規パンツァー語		word	
+尻	イスキア	新規パンツァー語		word	
+振り向く	ストレフェ	新規パンツァー語		word	
+彼ら	アフォ	新規パンツァー語		word	
+巧み	ディノス	新規パンツァー語		word	
+上手	ディノス	新規パンツァー語		word	
+虫	エント	新規パンツァー語		word	
+オナラ	バープ	新規パンツァー語		word	
+~するな	ヌンカ	新規パンツァー語		suffix	
+接触する	プサウス	新規パンツァー語		word	
+一度	ハパクス	新規パンツァー語		word	
+乗りこなす	エラウネイン	新規パンツァー語		word	
+装置	メカネ	新規パンツァー語		word	
+タイミング	カイロス	新規パンツァー語		word	
+大切	スプータイ	新規パンツァー語		word	
+重要	スプータイ	新規パンツァー語		word	
+近い	プレシオス	新規パンツァー語		word	
+見る	ホラン	新規パンツァー語		word	
+あいつら	イリ	新規パンツァー語		word	
+休み	パウラ	新規パンツァー語		word	
+休憩	パウラ	新規パンツァー語		word	
+食べる	エスティ	新規パンツァー語		word	
+耐える	パティ	新規パンツァー語		word	
+獲物	スコポス	新規パンツァー語		word	
+飛ぶ	ウォラーレ	新規パンツァー語		word	
+ほとんど	スケドン	新規パンツァー語		word	
+弱い	アセネ	新規パンツァー語		word	
+盾	アスピス	新規パンツァー語		word	
+制圧	エピクレート	新規パンツァー語		word	
+イーヴァ	イーヴァ	新規パンツァー語(石井)		word	
+ストラテ	ストラテ	新規パンツァー語(石井)		word	
+安心	ヘーシュキアー	新規パンツァー語(石井)		word	
+わ	ウィー	新規パンツァー語(石井)		word	
+ポッド	イナーリカ	新規パンツァー語(石井)		word	
+操作	エルガゼス	新規パンツァー語(石井)		word	
+操作する	エルガゼス	新規パンツァー語(石井)		word	
+操縦	エルガゼス	新規パンツァー語(石井)		word	
+操縦する	エルガゼス	新規パンツァー語(石井)		word	
+手	ケイル	新規パンツァー語(石井)		word	
+痛い	オデュネーロス	新規パンツァー語(石井)		word	
+イタッ	オデュッ			word	
+慎重	ソープローン	新規パンツァー語(石井)		word	
+慎重な	ソープローン	新規パンツァー語(石井)		word	
+ボタン	ペロネー	新規パンツァー語(石井)		word	
+上がる	エクススル	新規パンツァー語(石井)		word	
+上昇	エクススル	新規パンツァー語(石井)		word	
+上昇する	エクススル	新規パンツァー語(石井)		word	
+覚える	マンタネイ	新規パンツァー語(石井)		word	
+感覚	アイステーシス	新規パンツァー語(石井)		word	
+あー	アー―	新規パンツァー語(石井)		word	
+難しい	デュスケレース	新規パンツァー語(石井)		word	
+困難	デュスケレース	新規パンツァー語(石井)		word	
+機連銃	タキュメントゥム	新規パンツァー語(石井)		word	
+蓄重砲	アトロイゼンカノニ	新規パンツァー語(石井)		word	
+強い	イスキューロス	新規パンツァー語(石井)		word	
+長い	ロングス	新規パンツァー語(石井)		word	
+蓄積	アトロイゼイン	新規パンツァー語(石井)		word	
+蓄積する	アトロイゼイン	新規パンツァー語(石井)		word	
+驚き	タウマ	新規パンツァー語(石井)		word	
+驚く	タウマ	新規パンツァー語(石井)		word	
+驚いた	タウマ	新規パンツァー語(石井)		word	
+衝撃	エクプレークシス	新規パンツァー語(石井)		word	
+懲罰	カスティガシオ	新規パンツァー語(石井)		word	
+罰	カスティガシオ	新規パンツァー語(石井)		word	
+忍び込む	ステルポイントラーレ	新規パンツァー語(石井)		word	
+謝罪	アエグレ	新規パンツァー語(石井)		word	
+ドラゴン	デュラコーン	新規パンツァー語(石井)		word	
+自分	アウトス	新規パンツァー語(石井)		word	
+必ず	パントース	新規パンツァー語(石井)		word	
+これ	ホデ	新規パンツァー語(石井)		word	
+それ	イド	新規パンツァー語(石井)		word	
+着る	イムパノ	新規パンツァー語(石井)		word	
+防護服	エリュマステス	新規パンツァー語(石井)		word	
+あなた	シュ	新規パンツァー語(石井)		word	
+あなたの	スー	新規パンツァー語(石井)		word	
+生活	ビオス	新規パンツァー語(石井)		word	
+怪我	ブラベー	新規パンツァー語(石井)		word	
+ありがとう	ベニグネ	新規パンツァー語(石井)		word	
+はい	ナイ	新規パンツァー語(石井)		word	
+うーん	ムー―	新規パンツァー語(石井)		word	
+救う	イウボ	新規パンツァー語(石井)		word	
+本気	セーリオー	新規パンツァー語(石井)		word	
+嬉しい	エウテューモ	新規パンツァー語(石井)		word	
+秘密	セークレート	新規パンツァー語(石井)		word	
+了解	デナ	新規パンツァー語(石井)		word	
+可能	デュナトス	新規パンツァー語(石井)		word	
+あ	ウ	新規パンツァー語(石井)		word	
+気配	センサス	新規パンツァー語(石井)		word	
+異なる	ディアペレイン	新規パンツァー語(石井)		word	
+訓練	アスケーシス	新規パンツァー語(石井)		word	
+凄い	デナス	新規パンツァー語(石井)		word	
+あそこ	エケイ	新規パンツァー語(石井)		word	
+上	アノー	新規パンツァー語(石井)		word	
+下	カトー	新規パンツァー語(石井)		word	
+うわ	ウーア	新規パンツァー語(石井)		word	
+健康	ヒュギエ	新規パンツァー語(石井)		word	
+舌	グロータ	新規パンツァー語(石井)		word	
+噛む	ダクネイ	新規パンツァー語(石井)		word	
+ぶつける	オフェンド	新規パンツァー語(石井)		word	
+交代	アクシリウム	新規パンツァー語(石井)		word	
+間違い	エッラタ	新規パンツァー語(石井)		word	
+おいおい	ヒーウー	新規パンツァー語(石井)		word	
+信じる	ピステウエ	新規パンツァー語(石井)		word	
+オルタ	オルタ			word	
+鎖	プサリア			word	
+牢	カルサー			word	
+...	...			word	
+感染	ミアイネスタイ			word	
+感染する	ミアイネスタイ			word	
+亞人の	コーレル			word	
+モボ	モボ			word	
+モボの	モボル			word	
+歓迎	ヒュポドケー			word	
+アバド	アバド			word	
+心	メンタリ			word	
+心の	メンタリ			word	
+雪	キオーン			word	
+答え	アポクリマ			word	
+セストレン	セストレン			word	
+世界	ムンドゥス			word	
+昔	オーリム			word	
+かつて	オーリム			word	
+娘	テュガデール			word	
+愛する	ピレイ			word	
+母親	メーテ			word	
+生物	ヴィオ			word	
+祖父	パッポス			word	
+ポンタ	ポンタ			word	
+計画	スカディオン	旧辞書		word	
+もし~ならば	アヌ	旧辞書		frame	ANU
+あれは	アーヴォ	旧辞書		word	
+奴を	エ	旧辞書		word	
+WHY	ティ	旧辞書		word	TY
+国境で	フォーロス	旧辞書		word	
+討つ	ゲスケルデ	旧辞書		word	GESKELDE
+始まる	ルフィーザ	旧辞書		word	
+やってくる	フェルケス	旧辞書		word	FERUKES
+異常は	インソレンティア	アゼル		word	INSOLENTIA
+気楽で	エクスペドゥル	アゼル		word	EXPEDRE
+(強調)	ザ	アゼル		marker	ZA
+俺達の	ノステム	アゼル		word	NOSTEM
+俺達は	ノスター	アゼル		word	NOSTER
+~から	メッサ	アゼル		suffix	MESA
+良い	ボーン	アゼル		word	BONUM
+~すること	ウト	アゼル		suffix	UT
+到着	ヴェニレ	アゼル		word	VENIRE
+作動	プラスィーパ	アゼル		word	PURACEPA
+転がる	ベルダル	アゼル		word	BURUDAR
+~に成る	ゼーン	アゼル		suffix	ZEN
+手が	マウン	アゼル		word	MAUN

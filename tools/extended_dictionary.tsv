@@ -1,0 +1,630 @@
+# 一般会話用の拡張辞書
+# 資料「日本語_パンツァー語翻訳手順」の方法 (日本語 → 英語 → ラテン語・ギリシャ語 → カタカナ読み) で作った語。
+# 元資料 (パンツァー語辞典_ORTA.xls / パンツァー語辞書.xlsx) に同じ見出しがあれば、元資料の語が優先される。
+#
+# 列: 日本語(異表記は | 区切り) <TAB> パンツァー語 <TAB> 元の綴り(ラテン語・ギリシャ語) <TAB> 英語(カンマ区切り) <TAB> 分類
+#
+# ---- 挨拶・応答 ----
+こんにちは|こんにちわ	サルヴェ	salve	hello, hi	挨拶
+おはよう|おはようございます	ボナ マネ	bona mane	good morning	挨拶
+こんばんは	ボナ ウェスペラ	bona vespera	good evening	挨拶
+おやすみ|おやすみなさい	ボナ ノクス	bona nox	good night	挨拶
+はじめまして	サルヴェ プリムム	salve primum	nice to meet you	挨拶
+よろしく|よろしくお願いします	コメンド	commendo	nice to meet you	挨拶
+お願い|お願いします|どうか	クェソ	quaeso	please	挨拶
+すみません|ごめんなさい|ごめん	イグノスケ	ignosce	excuse me, i'm sorry	挨拶
+いいえ|いや|いえ	ネク	nec	no	応答
+ええと|えっと	イタ	ita	well, um	応答
+もちろん	ケルテ	certe	of course	応答
+大丈夫	サルウス	salvus	fine, alright, safe	形容詞
+おめでとう	グラトゥラ	gratulor	congratulations	挨拶
+いただきます	グラティアス	gratias	let's eat	挨拶
+ごちそうさま	サトゥル	satur	thanks for the meal	挨拶
+ただいま	レディ	redii	i'm home	挨拶
+おかえり	サルヴェ レディトゥス	salve reditus	welcome back	挨拶
+お疲れ様|おつかれ	ベネ ラボラ	bene labora	good job	挨拶
+いってきます	エオ	eo	i'm off	挨拶
+いってらっしゃい	ボヌム イテル	bonum iter	have a good trip	挨拶
+ようこそ	サルヴェ アドウェナ	salve advena	welcome	挨拶
+また明日	ウスクェ ラス	usque cras	see you tomorrow	挨拶
+またね|じゃあね|じゃあ	ウァレ	vale	see you	挨拶
+はい|うん|ええ	ナイ	nai	yes	応答
+そうです|その通り	ウェルム	verum	that's right	応答
+なるほど	イントゥエル	intellego	i see	応答
+本当|ほんと	ウェラ	vera	really, true	形容詞
+# ---- 代名詞・指示語 ----
+僕|俺|わたし|あたし|わたくし|自分	エナ	ena	i	代名詞
+あなた|君|きみ|おまえ|あんた	トゥ	tu	you	代名詞
+彼|あの人	ノル	nol	he, him	代名詞
+彼女	イラ	illa	she, her	代名詞
+私たち|我々|僕ら|俺たち|僕たち|わたしたち	ノスター	noster	we, us	代名詞
+あなたたち|君たち|お前たち	トゥス	tus	you all	代名詞
+彼ら|彼女たち|彼女ら	アフテ	afte	they, them	代名詞
+みんな|皆|みなさん	オムニス	omnis	everyone, everybody	代名詞
+誰か	ティスタ	tista	someone	代名詞
+何か	アリクィド	aliquid	something	代名詞
+誰も	ネモ	nemo	nobody, no one	代名詞
+これ	ホデ	hode	this	代名詞
+それ	イド	id	it, that	代名詞
+あれ	アルヴォ	arvo	that	代名詞
+ここ	エンタ	enta	here	代名詞
+そこ	イビ	ibi	there	代名詞
+あそこ	エケイ	ekei	over there	代名詞
+こっち|こちら	フーク	huc	this way	代名詞
+# ---- 疑問詞 ----
+何|なに|なん	クイッドゥ	quid	what	疑問詞
+誰|だれ	クイス	quis	who	疑問詞
+いつ	クアンド	quando	when	疑問詞
+どこ	ウビ	ubi	where	疑問詞
+どう|どうやって|どのように	クオモド	quomodo	how	疑問詞
+どれ|どちら|どっち	ウテル	uter	which	疑問詞
+いくら|いくつ|どのくらい	クアントゥム	quantum	how much, how many	疑問詞
+どうして	ティ	ty	why	疑問詞
+# ---- 家族・人 ----
+家族	ファミリア	familia	family	名詞
+親|両親	パレンス	parens	parent, parents	名詞
+父|お父さん|パパ	パテル	pater	father, dad	名詞
+母|お母さん|ママ	マテル	mater	mother, mom	名詞
+兄|お兄さん|兄さん	フラテル マヨル	frater maior	older brother	名詞
+弟	フラテル	frater	brother	名詞
+姉|お姉さん|姉さん	ソロル マヨル	soror maior	older sister	名詞
+妹	ソロル	soror	sister	名詞
+兄弟	フラテレス	fratres	brothers, siblings	名詞
+息子	フィリウス	filius	son	名詞
+夫	マリトゥス	maritus	husband	名詞
+妻	ウクソル	uxor	wife	名詞
+赤ちゃん|赤ん坊	インファンス	infans	baby	名詞
+祖母|おばあさん|おばあちゃん	アウィア	avia	grandmother	名詞
+おじいさん|おじいちゃん	パッポス	pappos	grandfather	名詞
+大人	アドゥルトゥス	adultus	adult	名詞
+若者	イウウェニス	iuvenis	young person	名詞
+老人	セネクス	senex	old man	名詞
+先生	マギステル	magister	teacher	名詞
+学生|生徒	ディスキプルス	discipulus	student	名詞
+医者	メディクス	medicus	doctor	名詞
+王|国王	レクス	rex	king	名詞
+女王	レギナ	regina	queen	名詞
+王子	プリンケプス	princeps	prince	名詞
+姫|王女	プリンケプサ	princeps	princess	名詞
+恋人	アマトル	amator	lover	名詞
+客|お客さん	ホスペス	hospes	guest, customer	名詞
+仲間	ソキウス	socius	companion	名詞
+彼氏	アマトル	amator	boyfriend	名詞
+誰でも	クイウィス	quivis	anyone	代名詞
+# ---- 体 ----
+頭	カプト	caput	head	名詞
+顔	ファキエス	facies	face	名詞
+目	オクルス	oculus	eye	名詞
+耳	アウリス	auris	ear	名詞
+鼻	ナスス	nasus	nose	名詞
+口	オス	os	mouth	名詞
+歯	デンス	dens	tooth, teeth	名詞
+髪	カピルス	capillus	hair	名詞
+首	コルム	collum	neck	名詞
+肩	ウメルス	umerus	shoulder	名詞
+胸	ペクトゥス	pectus	chest	名詞
+背中	テルグム	tergum	back	名詞
+腹|お腹	ウェンテル	venter	stomach, belly	名詞
+足|脚	ペス	pes	foot, leg	名詞
+指	ディギトゥス	digitus	finger	名詞
+骨	オッサ	ossa	bone	名詞
+肌|皮膚	クティス	cutis	skin	名詞
+声	ウォクス	vox	voice	名詞
+涙	ラクリマ	lacrima	tear, tears	名詞
+汗	スードル	sudor	sweat	名詞
+病気	モルブス	morbus	sickness, illness	名詞
+薬	メディカメン	medicamen	medicine	名詞
+熱	フェブリス	febris	fever	名詞
+風邪	グラウェド	gravedo	cold	名詞
+# ---- 食べ物・飲み物 ----
+食べ物|料理	キブス	cibus	food, dish	名詞
+ご飯|飯|食事	ケーナ	cena	meal, rice	名詞
+朝ご飯|朝食	イエンタクルム	ientaculum	breakfast	名詞
+昼ご飯|昼食	プランディウム	prandium	lunch	名詞
+晩ご飯|夕食	ケーナ	cena	dinner	名詞
+パン	パニス	panis	bread	名詞
+肉	カロ	caro	meat	名詞
+野菜	ホルス	holus	vegetable	名詞
+果物	フルクトゥス	fructus	fruit	名詞
+りんご	マールム	malum	apple	名詞
+卵	オウム	ovum	egg	名詞
+米	オリュザ	oryza	rice	名詞
+牛乳|ミルク	ラク	lac	milk	名詞
+酒|お酒|ワイン	ウィヌム	vinum	wine, alcohol	名詞
+ビール	ケルウィシア	cervisia	beer	名詞
+お茶|茶	テア	thea	tea	名詞
+コーヒー	カフェア	caffea	coffee	名詞
+砂糖	サッカルム	saccharum	sugar	名詞
+甘い	ドゥルキス	dulcis	sweet	形容詞
+辛い	アケル	acer	spicy	形容詞
+苦い	アマルス	amarus	bitter	形容詞
+しょっぱい	サルスス	salsus	salty	形容詞
+美味しい|おいしい|うまい	サポルス	saporus	delicious, tasty	形容詞
+まずい	イニスピドゥス	insipidus	bad taste	形容詞
+お腹が空く|空腹	エスリエス	esuries	hungry	形容詞
+喉が渇く|渇く	シティス	sitis	thirsty	形容詞
+# ---- 動物・自然 ----
+動物	アニマル	animal	animal	名詞
+犬	カニス	canis	dog	名詞
+猫	フェレス	feles	cat	名詞
+鳥	アウィス	avis	bird	名詞
+馬	エクウス	equus	horse	名詞
+牛	ボス	bos	cow	名詞
+羊	オウィス	ovis	sheep	名詞
+狼	ルプス	lupus	wolf	名詞
+蛇	セルペンス	serpens	snake	名詞
+花	フロス	flos	flower	名詞
+草	ヘルバ	herba	grass	名詞
+葉|葉っぱ	フォリウム	folium	leaf	名詞
+山	モンス	mons	mountain	名詞
+川	フルメン	flumen	river	名詞
+海	マーレ	mare	sea, ocean	名詞
+湖	ラクス	lacus	lake	名詞
+島	インスラ	insula	island	名詞
+岩	サクスム	saxum	rock	名詞
+砂	ハレナ	harena	sand	名詞
+土|畑	アグロス	agros	field, soil	名詞
+月	ルナ	luna	moon	名詞
+星	ステラ	stella	star	名詞
+雲	ネブラ	nebula	cloud	名詞
+雷	トニトルス	tonitrus	thunder	名詞
+氷	グラキエス	glacies	ice	名詞
+天気	カエルム	caelum	weather	名詞
+晴れ	セレヌム	serenum	sunny, clear	名詞
+暖かい	テピドゥス	tepidus	warm	形容詞
+寒い|冷たい	フリギドゥス	frigidus	cold	形容詞
+涼しい	フレスクス	frescus	cool	形容詞
+暑い|熱い	カリドゥス	calidus	hot	形容詞
+季節	テンプス	tempus	season	名詞
+春	ウェール	ver	spring	名詞
+夏	アエスタス	aestas	summer	名詞
+秋	アウトゥムヌス	autumnus	autumn, fall	名詞
+冬	ヒエムス	hiems	winter	名詞
+# ---- 時 ----
+夜	ノクス	nox	night	名詞
+昼	ディエス メディウス	dies medius	noon, daytime	名詞
+午前	アンテ メリディエム	ante meridiem	morning, am	名詞
+午後	ポスト メリディエム	post meridiem	afternoon, pm	名詞
+時間	ホラ	hora	hour, time	名詞
+秒	セクンダ	secunda	second	名詞
+週|週間	ヘブドマス	hebdomas	week	名詞
+月曜日|月曜	ディエス ルナエ	dies lunae	monday	名詞
+火曜日|火曜	ディエス マルティス	dies martis	tuesday	名詞
+水曜日|水曜	ディエス メルクリイ	dies mercurii	wednesday	名詞
+木曜日|木曜	ディエス イオウィス	dies iovis	thursday	名詞
+金曜日|金曜	ディエス ウェネリス	dies veneris	friday	名詞
+土曜日|土曜	ディエス サトゥルニ	dies saturni	saturday	名詞
+日曜日|日曜	ディエス ソリス	dies solis	sunday	名詞
+年|年間	アンヌス	annus	year	名詞
+今年	ホック アンノ	hoc anno	this year	名詞
+去年	プリオル アンヌス	prior annus	last year	名詞
+来年	ポスタルス アンヌス	posterus annus	next year	名詞
+毎日	コティディエ	cotidie	every day	副詞
+今晩|今夜	ホック ノクテ	hoc nocte	tonight	名詞
+先週	プリオル ヘブドマス	prior hebdomas	last week	名詞
+来週	ポスタルス ヘブドマス	posterus hebdomas	next week	名詞
+未来	フトゥルム	futurum	future	名詞
+過去	プラエテリトゥム	praeteritum	past	名詞
+誕生日	ディエス ナタリス	dies natalis	birthday	名詞
+休日|休み	フェリアエ	feriae	holiday, day off	名詞
+早く	キト	cito	early, quickly	副詞
+遅い	セルス	serus	late, slow	形容詞
+ゆっくり	レンテ	lente	slowly	副詞
+後で	ポステア	postea	later	副詞
+もうすぐ	モクス	mox	soon	副詞
+最初|初め|はじめ	プロト	proto	first, beginning	名詞
+最後	エスカト	eskato	last, end	名詞
+終わり	フィニス	finis	end	名詞
+# ---- 場所・建物・乗り物 ----
+国	パトリア	patria	country	名詞
+町	オッピドゥム	oppidum	town	名詞
+都市	ウルブス	urbs	city	名詞
+学校	スコラ	schola	school	名詞
+大学	ウーニウェル	univel	university, college	名詞
+病院	ウァレトゥディナリウム	valetudinarium	hospital	名詞
+店|お店	タベルナ	taberna	shop, store	名詞
+市場	メルカトゥス	mercatus	market	名詞
+駅	スタティオ	statio	station	名詞
+道路|通り	ウィア	via	street, road	名詞
+橋	ポンス	pons	bridge	名詞
+公園	ホルトゥス	hortus	park, garden	名詞
+庭	ホルトゥス	hortus	garden, yard	名詞
+教会|神殿	テンプルム	templum	church, temple	名詞
+図書館	ビブリオテカ	bibliotheca	library	名詞
+会社	ソキエタス	societas	company	名詞
+仕事	ラボル	labor	work, job	名詞
+窓	フェネストラ	fenestra	window	名詞
+ドア|扉	ヤヌア	ianua	door	名詞
+壁	ムルス	murus	wall	名詞
+屋根	テクトゥム	tectum	roof	名詞
+机	メンサ	mensa	desk, table	名詞
+椅子	セッラ	sella	chair	名詞
+ベッド|寝台	レクトゥス	lectus	bed	名詞
+台所	クリナ	culina	kitchen	名詞
+風呂|お風呂	バルネウム	balneum	bath	名詞
+トイレ	ラトリナ	latrina	toilet, bathroom	名詞
+車|自動車	ウェヒクルム	vehiculum	car	名詞
+電車|列車	トラクトゥス	tractus	train	名詞
+バス	オムニブス	omnibus	bus	名詞
+自転車	ビロタ	birota	bicycle, bike	名詞
+飛行機	アエロプラヌム	aeroplanum	airplane, plane	名詞
+空港	アエロポルトゥス	aeroportus	airport	名詞
+地図	マッパ	mappa	map	名詞
+# ---- 物 ----
+本	リベル	liber	book	名詞
+手紙	エピストラ	epistula	letter	名詞
+紙	カルタ	charta	paper	名詞
+ペン|鉛筆	スティルス	stilus	pen, pencil	名詞
+服	ウェスティス	vestis	clothes	名詞
+靴	カルケウス	calceus	shoes	名詞
+帽子	ピレウス	pileus	hat	名詞
+鞄|かばん	ペラ	pera	bag	名詞
+財布	クメナ	crumena	wallet	名詞
+お金|金	ペクニア	pecunia	money	名詞
+黄金	アウルム	aurum	gold	名詞
+銀	アルゲントゥム	argentum	silver	名詞
+鉄	フェルム	ferrum	iron	名詞
+鍵	クラウィス	clavis	key	名詞
+箱	アルカ	arca	box	名詞
+時計	ホロロギウム	horologium	clock, watch	名詞
+電話|携帯|スマホ	テレフォヌム	telephonum	phone	名詞
+写真	イマゴ	imago	photo, picture	名詞
+絵	ピクトゥラ	pictura	painting, picture	名詞
+音楽	ムーシカ	musica	music	名詞
+映画	キネマ	kinema	movie, film	名詞
+ゲーム|遊び	ルードゥス	ludus	game, play	名詞
+贈り物|プレゼント	ドーヌム	donum	gift, present	名詞
+花束	セルタ	serta	bouquet	名詞
+言葉	ウェルブム	verbum	word	名詞
+言語	リングア	lingua	language	名詞
+日本語	リングア ヤポニカ	lingua iaponica	japanese	名詞
+英語	リングア アングリカ	lingua anglica	english	名詞
+文字	リッテラ	littera	letter, character	名詞
+数	ヌメルス	numerus	number	名詞
+色	コロル	color	color	名詞
+赤|赤い	ルベル	ruber	red	形容詞
+青|青い	カエルレウス	caeruleus	blue	形容詞
+緑	ウィリディス	viridis	green	形容詞
+黄色|黄色い	フラウス	flavus	yellow	形容詞
+黒|黒い	ニゲル	niger	black	形容詞
+白|白い	アルブム	album	white	形容詞
+問題	プロブレマ	problema	problem, question	名詞
+質問	クァエスティオ	quaestio	question	名詞
+意味	センスス	sensus	meaning	名詞
+考え	コギタティオ	cogitatio	idea, thought	名詞
+夢	ソムニウム	somnium	dream	名詞
+希望|望み	スペス	spes	hope	名詞
+愛	アモル	amor	love	名詞
+平和	パクス	pax	peace	名詞
+戦争	ベルム	bellum	war	名詞
+真実	ウェリタス	veritas	truth	名詞
+嘘	メンダキウム	mendacium	lie	名詞
+約束	プロミッスム	promissum	promise	名詞
+勇気	ウィルトゥス	virtus	courage	名詞
+運|幸運	フォルトゥナ	fortuna	luck	名詞
+幸せ	フェリキタス	felicitas	happiness	名詞
+悲しみ	トリスティティア	tristitia	sadness	名詞
+怒り	イーラ	ira	anger	名詞
+神	デウス	deus	god	名詞
+魂	アニマ	anima	soul	名詞
+魔法	マギア	magia	magic	名詞
+未知	イグノトゥム	ignotum	unknown	名詞
+# ---- 動詞 ----
+する|やる	イエナ	iena	do	動詞
+ある|いる	エッセ	esse	be, exist, there is	動詞
+なる	ゼーン	zen	become	動詞
+行く|いく	イーレ	ire	go	動詞
+帰る	レスプ	respu	go home	動詞
+歩く	アンブラ	ambulare	walk	動詞
+走る	クレーレ	currere	run	動詞
+泳ぐ	ナターレ	natare	swim	動詞
+座る	セデーレ	sedere	sit	動詞
+立つ	スターレ	stare	stand	動詞
+寝る	ドルミーレ	dormire	sleep, go to bed	動詞
+起きる	スルゲーレ	surgere	get up	動詞
+休む	クィエスケ	quiescere	rest	動詞
+待つ	エクスペクタ	exspectare	wait	動詞
+会う	オックレ	occurrere	meet	動詞
+話す|しゃべる|喋る	ロクィ	loqui	talk, speak	動詞
+読む	レゲーレ	legere	read	動詞
+書く	スクリベーレ	scribere	write	動詞
+描く	ピンゲーレ	pingere	draw, paint	動詞
+歌う	カネーレ	canere	sing	動詞
+踊る	サルターレ	saltare	dance	動詞
+遊ぶ	ルーデーレ	ludere	play	動詞
+笑う	リデーレ	ridere	laugh, smile	動詞
+泣く	フレーレ	flere	cry, weep	動詞
+飲む	ビベーレ	bibere	drink	動詞
+料理する	コクェーレ	coquere	cook	動詞
+買う	エメーレ	emere	buy	動詞
+払う	ソルウェレ	solvere	pay	動詞
+働く	ラボラーレ	laborare	work	動詞
+勉強する|学ぶ|習う	ディスケーレ	discere	study, learn	動詞
+住む	ハビターレ	habitare	live, dwell	動詞
+着く	アドウェニ	advenire	arrive	動詞
+出かける	エクシア	exia	go out	動詞
+入れる	インポネ	imponere	put in	動詞
+置く	ポネーレ	ponere	put, place	動詞
+取る	スメーレ	sumere	take	動詞
+あげる|与える|くれる	ダーレ	dare	give	動詞
+受け取る|もらう	アッキペ	accipere	receive, get	動詞
+借りる	ムトゥア	mutuari	borrow	動詞
+貸す	コモダ	commodare	lend	動詞
+送る	ミッテーレ	mittere	send	動詞
+届く	ペルウェニ	pervenire	reach	動詞
+開ける	アペリーレ	aperire	open	動詞
+閉める	クラウデーレ	claudere	close	動詞
+切る	セカーレ	secare	cut	動詞
+洗う	ラウァーレ	lavare	wash	動詞
+掃除する	プルガーレ	purgare	clean	動詞
+着る	イムパノ	impano	wear, put on	動詞
+脱ぐ	エクセレ	exuere	take off	動詞
+持ってくる|連れてくる	アフェーレ	afferre	bring	動詞
+戻す|返す	レッデーレ	reddere	give back, return	動詞
+探す	クェイル	quael	look for	動詞
+見つける	インウェニーレ	invenire	find	動詞
+忘れる	オブリウィスキ	oblivisci	forget	動詞
+思い出す	レコルダーリ	recordari	remember, recall	動詞
+わかる|分かる	インテレゲ	intellegere	understand	動詞
+教わる	ディスケーレ	discere	be taught	動詞
+答える	レスポンデーレ	respondere	answer, reply	動詞
+尋ねる|聞く	ロガーレ	rogare	ask	動詞
+呼ぶ	ヴォカル	vocal	call	動詞
+感じる	センティーレ	sentire	feel	動詞
+決める	デケルネ	decernere	decide	動詞
+選ぶ	エリゲーレ	eligere	choose	動詞
+変える|変わる	ムターレ	mutare	change	動詞
+始まる	ルフィーザ	rufiza	begin	動詞
+終わる|終える	フィニーレ	finire	end, finish	動詞
+続く	ペルゲーレ	pergere	continue, go on	動詞
+勝つ	ウィンケーレ	vincere	win	動詞
+負ける	ウィンキ	vinci	lose	動詞
+戦う	プグナーレ	pugnare	fight	動詞
+守る	ディフェンシオ	defensio	protect	動詞
+助ける|手伝う	アディウワ	adiuvare	help	動詞
+待ち合わせる	コンウェニ	convenire	meet up	動詞
+愛する	ピレイ	philei	love	動詞
+好き|好む	アマーレ	amare	like	動詞
+嫌い|嫌う	オディ	odi	hate, dislike	動詞
+欲しい	クピオ	cupio	want	動詞
+怒る	イラスキ	irasci	get angry	動詞
+驚く	タウマ	thauma	be surprised	動詞
+疲れる	ラッスス	lassus	tired, be tired	動詞
+困る	ラボーロ	laboro	be in trouble	動詞
+死ぬ	モリ	mori	die	動詞
+生まれる	ゲネーマ	genema	be born	動詞
+育てる|育つ	アレーレ	alere	raise, grow	動詞
+作る	ポイエ	poie	make	動詞
+使う	クレス	chres	use	動詞
+試す	テンターレ	temptare	try	動詞
+練習する	エクセルケ	exercere	practice	動詞
+旅行する	ペレグリナ	peregrinari	travel	動詞
+遅れる	ヒステ	hyste	be late	動詞
+急ぐ	フェスティナ	festina	hurry	動詞
+止まる	イペク	ipek	stop	動詞
+降る	カデーレ	cadere	fall	動詞
+吹く	フィス	phys	blow	動詞
+光る|輝く	ルケーレ	lucere	shine	動詞
+燃やす	ピュール	pyr	burn	動詞
+祈る	プレカーリ	precari	pray	動詞
+信じる	ピステウエ	pisteue	believe	動詞
+願う	オプターレ	optare	wish	動詞
+言う|話しかける	ナルヴ	narv	say	動詞
+聞こえる|聴く	アウディーレ	audire	hear, listen	動詞
+見える|見る	ウィデーレ	videre	see, look	動詞
+見せる	モンストラ	monstrare	show	動詞
+覚える	マンタネイ	manthanei	remember, learn	動詞
+知る	コグニトゥム	cognitum	know	動詞
+思う|考える	コギターレ	cogitare	think	動詞
+笑顔	リスス	risus	smile	名詞
+# ---- 形容詞 ----
+良い|いい|よい	ボヌム	bonum	good	形容詞
+悪い	マルム	malum	bad	形容詞
+大きい|でかい	マグヌス	magnus	big, large	形容詞
+小さい	パルウス	parvus	small, little	形容詞
+多い	ムルトゥス	multus	many, much	形容詞
+少ない	パウキ	pauci	few	形容詞
+高い	アルトゥス	altus	high, tall	形容詞
+低い	フミリス	humilis	low	形容詞
+高価|値段が高い	カルス	carus	expensive	形容詞
+安い	ウィリス	vilis	cheap	形容詞
+新しい	ノウゥス	novus	new	形容詞
+古い	ウェトゥス	vetus	old	形容詞
+若い	イウウェニス	iuvenis	young	形容詞
+長い	ロングス	longus	long	形容詞
+短い	ブレウィス	brevis	short	形容詞
+重い	グラウィス	gravis	heavy	形容詞
+軽い	レウィス	levis	light	形容詞
+速い	ウェロクス	velox	fast	形容詞
+近い	プロピンクス	propinquus	near, close	形容詞
+遠い	ロンギンクス	longinquus	far	形容詞
+広い	ラトゥス	latus	wide	形容詞
+狭い	アングストゥス	angustus	narrow	形容詞
+明るい	クラルス	clarus	bright	形容詞
+暗い	オブスクルス	obscurus	dark	形容詞
+美しい|綺麗|きれい	プルケル	pulcher	beautiful, pretty	形容詞
+かわいい|可愛い	ベッルス	bellus	cute	形容詞
+かっこいい	フォルモスス	formosus	cool, handsome	形容詞
+汚い	トレロス	treros	dirty	形容詞
+楽しい	イウクンドゥス	iucundus	fun, enjoyable	形容詞
+面白い	リディクルス	ridiculus	funny, interesting	形容詞
+つまらない|退屈	タエディオスス	taediosus	boring	形容詞
+嬉しい	エウテューモ	euthymo	happy, glad	形容詞
+悲しい	トリスティス	tristis	sad	形容詞
+寂しい	ソリタリウス	solitarius	lonely	形容詞
+怖い	テリビリス	terribilis	scary	形容詞
+優しい	ベニグヌス	benignus	kind, gentle	形容詞
+厳しい	セウェルス	severus	strict	形容詞
+賢い	サピエンス	sapiens	wise, smart	形容詞
+簡単|易しい	ファキリス	facilis	easy	形容詞
+難しい	デュスケレース	dyskeres	difficult	形容詞
+忙しい	オックパトゥス	occupatus	busy	形容詞
+暇	オティオスス	otiosus	free time	形容詞
+元気	ウァレンス	valens	well, healthy	形容詞
+静か	シーレ	sile	quiet	形容詞
+うるさい	クラモスス	clamosus	noisy	形容詞
+大切|大事	スプータイ	spoutai	important	形容詞
+必要	ネケッサリウス	necessarius	necessary	形容詞
+同じ	アウト	auto	same	形容詞
+違う	アリウス	alius	different	形容詞
+本物	ウェルス	verus	real	形容詞
+上手	ペリトゥス	peritus	skillful	形容詞
+下手	イムペリトゥス	imperitus	unskillful	形容詞
+有名	クラールス	clarus	famous	形容詞
+危ない	ペリクロスス	periculosus	dangerous	形容詞
+安全	トゥトゥス	tutus	safe	形容詞
+正しい	グスタス	gustas	correct	形容詞
+自由	リバータス	libertas	free	形容詞
+# ---- 副詞・接続 ----
+とても|すごく|非常に	ウァルデ	valde	very	副詞
+少し|ちょっと	パウルム	paulum	a little, moment, bit	副詞
+もっと	マギス	magis	more	副詞
+一番|最も	マクシメ	maxime	most	副詞
+また|再び	イテルム	iterum	again	副詞
+いつも	クオ	quo	always	副詞
+時々	インテルドゥム	interdum	sometimes	副詞
+たぶん|多分|おそらく	フォルタッセ	fortasse	maybe, probably	副詞
+本当に	ウェレ	vere	really	副詞
+一緒に|一緒	イン	in	together	副詞
+一人で	ソルス	solus	alone	副詞
+全部	オムニノ	omnino	all	副詞
+だけ|のみ	タントゥム	tantum	only	副詞
+もう|すでに	ジャム	jam	already	副詞
+まだ	エティ	eti	still, yet	副詞
+きっと	サフォース	saphos	surely	副詞
+でも|けど	タブ	tab	but	接続詞
+だから|それで	イギトゥル	igitur	so, therefore	接続詞
+または|か	アウトゥ	aut	or	接続詞
+そして|それから	カイ	kai	and	接続詞
+なぜなら	クイア	quia	because	接続詞
+もし	アヌ	anu	if	接続詞
+# ---- 数 ----
+一つ|ひとつ	プロト	proto	one	数
+二つ|ふたつ	デュバ	dyuba	two	数
+三つ|みっつ	トリニ	trini	three	数
+四つ|よっつ	クエテゥ	quetu	four	数
+五つ|いつつ	クイニ	quini	five	数
+千	ミリア	milia	thousand	数
+万	デナ ミリア	dena milia	ten thousand	数
+半分	ディミディウム	dimidium	half	数
+# ---- 方角・位置 ----
+外	フォリス	foris	outside	名詞
+内|内側	イントゥス	intus	inside	名詞
+横|そば	ラトゥス	latus	side	名詞
+間	インテル	inter	between	名詞
+周り	キルクム	circum	around	名詞
+先	アンテ	ante	ahead	名詞
+奥	プロフンドゥム	profundum	back, depths	名詞
+# ---- よく使う動詞 (追加) ----
+空く|お腹が空く	エスリエ	esurire	be hungry	動詞
+壊れる	フランギ	frangi	break, be broken	動詞
+頑張る	コナーリ	conari	do one's best, try hard	動詞
+楽しむ	フルイ	frui	enjoy	動詞
+心配する	ソリキトゥス	sollicitus	worry	動詞
+起こる	アッキデレ	accidere	happen	動詞
+落とす	デミッテ	demittere	drop	動詞
+乗る	コンスケンデ	conscendere	ride, get on	動詞
+降りる	デスケンデ	descendere	get off, go down	動詞
+登る	アスケンデ	ascendere	climb	動詞
+回る	ウェルティ	verti	turn, spin	動詞
+曲がる	フレクテ	flectere	turn	動詞
+渡る|越える	トランシーレ	transire	cross	動詞
+通る	ペルトランシ	pertransire	go through	動詞
+押す	プルサーレ	pulsare	push, press	動詞
+引っ張る	トラヘーレ	trahere	pull	動詞
+投げる	イアケレ	iacere	throw	動詞
+打つ|叩く	フェリーレ	ferire	hit, strike	動詞
+触る|触れる	タンゲーレ	tangere	touch	動詞
+抱く|抱きしめる	アンプレクティ	amplecti	hug, hold	動詞
+消す	デレーレ	delere	erase, turn off	動詞
+つける|点ける	アッケンデ	accendere	turn on, light	動詞
+似る	シミリス	similis	resemble	動詞
+集める	コリゲーレ	colligere	collect, gather	動詞
+集まる	コンウェニーレ	convenire	gather	動詞
+分ける	ディウィデーレ	dividere	divide, share	動詞
+増える	クレスケーレ	crescere	increase, grow	動詞
+治る|治す	サナーレ	sanare	heal, cure	動詞
+痛む	ドレーレ	dolere	hurt, ache	動詞
+結婚する	ヌベーレ	nubere	marry	動詞
+離れる	ディスケデーレ	discedere	leave, part	動詞
+近づく	アップロピンクァ	appropinquare	approach	動詞
+隠れる|隠す	アブスコンデ	abscondere	hide	動詞
+伝える	ヌンティアーレ	nuntiare	tell, convey	動詞
+謝る	エクスクーサ	excusare	apologize	動詞
+褒める	ラウダーレ	laudare	praise	動詞
+叱る	オブユルガ	obiurgare	scold	動詞
+断る	レクーサーレ	recusare	refuse	動詞
+誘う	インウィターレ	invitare	invite	動詞
+紹介する	コメンダーレ	commendare	introduce	動詞
+説明する	エクスプリカーレ	explicare	explain	動詞
+相談する	コンスレーレ	consulere	consult	動詞
+予約する	レセルウァーレ	reservare	reserve, book	動詞
+注文する	イムペラーレ	imperare	order	動詞
+運転する	グベルナーレ	gubernare	drive	動詞
+電話する	テレフォナ	telephonare	call, phone	動詞
+散歩する	スパティアーリ	spatiari	take a walk	動詞
+買い物	エンプティオ	emptio	shopping	名詞
+洗濯する	ラウァーレ	lavare	do laundry	動詞
+泊まる	マネーレ	manere	stay	動詞
+引っ越す	ミグラーレ	migrare	move house	動詞
+過ごす	デゲーレ	degere	spend time	動詞
+間に合う	トゥエンポレ	tempore	be in time	動詞
+慣れる	アッスエスケ	assuescere	get used to	動詞
+迷う	エラーレ	errare	get lost, hesitate	動詞
+喜ぶ	ガウデーレ	gaudere	be glad	動詞
+悲しむ	ドレーレ	dolere	grieve	動詞
+始める	アルケ	arche	start	動詞
+出る|出かける	エクシア	exia	leave, go out	動詞
+入る	レルテ	relte	enter	動詞
+もらう	アッキペ	accipere	receive	動詞
+できる	ポッスム	possum	can, be able	動詞
+知らせる	ノティフィカ	notificare	inform	動詞
+生活する	ウィウィーレ	vivere	live	動詞
+直す|修理する	レフィケーレ	reficere	repair, fix	動詞
+# ---- 会話でよく使う語 (追加) ----
+まっすぐ	ディレクテ	directe	straight	副詞
+よく	ベネ	bene	well, often	副詞
+どういたしまして	ニヒル エスト	nihil est	you're welcome	挨拶
+撮る	カペーレ	capere	take (a photo)	動詞
+もう一度	イテルム	iterum	once more, again	副詞
+飼う	アレーレ	alere	keep (a pet)	動詞
+趣味	ストゥディウム	studium	hobby	名詞
+週末	フィニス ヘブドマディス	finis hebdomadis	weekend	名詞
+傘	ウンベラ	umbella	umbrella	名詞
+毎朝	コティディエ マネ	cotidie mane	every morning	副詞
+毎晩	コティディエ ノクテ	cotidie nocte	every night	副詞
+夏休み	フェリアエ アエスティウァエ	feriae aestivae	summer vacation	名詞
+大好き	アマーレ	amare	love, really like	形容詞
+大嫌い	オディ	odi	hate	形容詞
+用心	カウェーレ	cavere	be careful, take care	動詞
+何時	クォタ ホラ	quota hora	what time	疑問詞
+半	ディミディウム	dimidium	half	数
+一	プロト	proto	one	数
+二	デュバ	dyuba	two	数
+三	トリニ	trini	three	数
+四	クエテゥ	quetu	four	数
+五	クイニ	quini	five	数
+六	セクシ	sexi	six	数
+七	セプツア	septua	seven	数
+八	オクタ	octa	eight	数
+九	ノウェ	nove	nine	数
+十	デニ	deni	ten	数
+百	センツゥム	centum	hundred	数
+会社員	オペラリウス	operarius	office worker	名詞
+仕事する	ラボラーレ	laborare	work	動詞
+眠れる	ドルミーレ	dormire	can sleep	動詞
+あの|あんな	アルヴォ	arvo	that	代名詞
+この|こんな	ヒック	hic	this	代名詞
+その|そんな	イド	id	that, the	代名詞
+ください|くださる|下さい	クェソ	quaeso	please, give me	挨拶
+会える	オックレ	occurrere	can meet	動詞
+似合う	コンウェニーレ	convenire	suit, look good	動詞
+なくす|失くす|失う	アミッテーレ	amittere	lose	動詞
+晴れる	セレナーレ	serenare	clear up	動詞
+叶える|叶う	エフィケーレ	efficere	come true, fulfill	動詞
+出す	プロメーレ	promere	take out, put out	動詞
+出発|出発する	プロフェクティオ	profectio	departure, depart	名詞
+運動	エクセルキティウム	exercitium	exercise	名詞
+近く	プロペ	prope	near, nearby	名詞
+頃	テンポレ	tempore	time, when	名詞
+回	ウィケス	vices	times	名詞
